@@ -1,0 +1,4208 @@
+[
+  {
+    "type": "assistant",
+    "designName": "2.45 GHz Probe-Fed Rectangular Patch",
+    "params": {
+      "id": "nl-1795245326931",
+      "name": "2.45 GHz Probe-Fed Rectangular Patch",
+      "topology": "rectangular_patch",
+      "patchLengthMm": 32.37,
+      "patchWidthMm": 40.88,
+      "substrateHeightMm": 1.524,
+      "dielectricConstant": 3.48,
+      "lossTangent": 0.0037,
+      "feedXMm": 11.65,
+      "feedYMm": 0,
+      "operatingFreqGHz": 2.45,
+      "substrateMaterial": "Rogers_RO4350B",
+      "conductorMaterial": "Copper",
+      "insetDepthMm": 0,
+      "notchWidthMm": 0,
+      "probeDiameterMm": 1.27,
+      "feedTypeCode": 2,
+      "patchRadiusMm": 0,
+      "elementSpacingXmm": 0,
+      "elementSpacingYmm": 0,
+      "phaseXDeg": 0,
+      "phaseYDeg": 0,
+      "arrayLayoutCode": 0,
+      "portConfigurationCode": 0,
+      "targetGainDbi": 8.5,
+      "targetBandwidthMHz": 74
+    },
+    "prediction": {
+      "gainDbi": 3.51,
+      "bandwidthMHz": 54.2,
+      "resonantFreqGHz": 2.357,
+      "efficiencyPct": 74.4,
+      "returnLossDb": -33.98,
+      "vswr": 1.04,
+      "inputImpedanceOhm": 50,
+      "beamwidthDeg": 88.7,
+      "areaMm2": 2346,
+      "estimatedCostUsd": 8.59,
+      "modelUsed": "ensemble",
+      "provenance": "Demo analytical-estimate surrogate — not EM-validated data.",
+      "isDemoEstimate": true,
+      "featureVector21": [
+        32.37,
+        40.88,
+        1.524,
+        3.48,
+        0.0037,
+        11.65,
+        0,
+        2.45,
+        1,
+        1,
+        0,
+        0,
+        1.27,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "baselineExpectation": {
+        "gainDbi": 4.19,
+        "bandwidthMHz": 1123.6,
+        "efficiencyPct": 69.7
+      },
+      "shapContributions": [
+        {
+          "featureKey": "operatingFreqGHz",
+          "label": "Operating Frequency",
+          "unit": "GHz",
+          "value": 2.45,
+          "baselineValue": 8.463,
+          "gainImpactDbi": -0.951,
+          "bandwidthImpactMHz": -286.12,
+          "efficiencyImpactPct": -3.12,
+          "importancePct": 34.2
+        },
+        {
+          "featureKey": "dielectricConstant",
+          "label": "Dielectric Constant (er)",
+          "unit": "",
+          "value": 3.48,
+          "baselineValue": 4.536,
+          "gainImpactDbi": 2.656,
+          "bandwidthImpactMHz": 9.96,
+          "efficiencyImpactPct": 25.07,
+          "importancePct": 26
+        },
+        {
+          "featureKey": "topologyCode",
+          "label": "Topology Code",
+          "unit": "code",
+          "value": 1,
+          "baselineValue": 2.057,
+          "gainImpactDbi": -1.998,
+          "bandwidthImpactMHz": -7.92,
+          "efficiencyImpactPct": 0.3,
+          "importancePct": 12.9
+        },
+        {
+          "featureKey": "elementSpacingYmm",
+          "label": "Element Spacing Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 13.215,
+          "gainImpactDbi": -1.468,
+          "bandwidthImpactMHz": 1.93,
+          "efficiencyImpactPct": 0,
+          "importancePct": 9
+        },
+        {
+          "featureKey": "substrateHeightMm",
+          "label": "Substrate Height (h)",
+          "unit": "mm",
+          "value": 1.524,
+          "baselineValue": 2.309,
+          "gainImpactDbi": -0.159,
+          "bandwidthImpactMHz": -24.64,
+          "efficiencyImpactPct": -2.3,
+          "importancePct": 4.1
+        },
+        {
+          "featureKey": "feedTypeCode",
+          "label": "Feed Type Code",
+          "unit": "code",
+          "value": 2,
+          "baselineValue": 0.323,
+          "gainImpactDbi": -0.272,
+          "bandwidthImpactMHz": 4.13,
+          "efficiencyImpactPct": -0.8,
+          "importancePct": 2.3
+        },
+        {
+          "featureKey": "lossTangent",
+          "label": "Loss Tangent (tan d)",
+          "unit": "",
+          "value": 0.0037,
+          "baselineValue": 0.006,
+          "gainImpactDbi": 0.127,
+          "bandwidthImpactMHz": -10.45,
+          "efficiencyImpactPct": 0.47,
+          "importancePct": 1.9
+        },
+        {
+          "featureKey": "arrayLayoutCode",
+          "label": "Array Layout Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.29,
+          "gainImpactDbi": -0.265,
+          "bandwidthImpactMHz": -0.47,
+          "efficiencyImpactPct": -0.28,
+          "importancePct": 1.7
+        },
+        {
+          "featureKey": "feedXMm",
+          "label": "Feed Position X",
+          "unit": "mm",
+          "value": 11.65,
+          "baselineValue": 9.792,
+          "gainImpactDbi": -0.204,
+          "bandwidthImpactMHz": -1.27,
+          "efficiencyImpactPct": -0.75,
+          "importancePct": 1.6
+        },
+        {
+          "featureKey": "patchLengthMm",
+          "label": "Patch Length (L)",
+          "unit": "mm",
+          "value": 32.37,
+          "baselineValue": 25.507,
+          "gainImpactDbi": -0.044,
+          "bandwidthImpactMHz": -7.49,
+          "efficiencyImpactPct": -1.04,
+          "importancePct": 1.4
+        },
+        {
+          "featureKey": "patchWidthMm",
+          "label": "Patch Width (W)",
+          "unit": "mm",
+          "value": 40.88,
+          "baselineValue": 32.437,
+          "gainImpactDbi": 0.089,
+          "bandwidthImpactMHz": -1.81,
+          "efficiencyImpactPct": 0.27,
+          "importancePct": 0.8
+        },
+        {
+          "featureKey": "elementSpacingXmm",
+          "label": "Element Spacing X",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 13.214,
+          "gainImpactDbi": -0.126,
+          "bandwidthImpactMHz": 0.33,
+          "efficiencyImpactPct": 0.02,
+          "importancePct": 0.8
+        },
+        {
+          "featureKey": "insetDepthMm",
+          "label": "Inset Depth",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 3.819,
+          "gainImpactDbi": 0.043,
+          "bandwidthImpactMHz": 2.92,
+          "efficiencyImpactPct": 0.38,
+          "importancePct": 0.7
+        },
+        {
+          "featureKey": "probeDiameterMm",
+          "label": "Probe Diameter",
+          "unit": "mm",
+          "value": 1.27,
+          "baselineValue": 0.256,
+          "gainImpactDbi": 0.067,
+          "bandwidthImpactMHz": 0.91,
+          "efficiencyImpactPct": 0.54,
+          "importancePct": 0.7
+        },
+        {
+          "featureKey": "notchWidthMm",
+          "label": "Notch Width",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 1.119,
+          "gainImpactDbi": 0.037,
+          "bandwidthImpactMHz": 0.72,
+          "efficiencyImpactPct": 0.46,
+          "importancePct": 0.5
+        },
+        {
+          "featureKey": "patchRadiusMm",
+          "label": "Patch Radius",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 3.152,
+          "gainImpactDbi": 0.024,
+          "bandwidthImpactMHz": 2.28,
+          "efficiencyImpactPct": -0.35,
+          "importancePct": 0.5
+        },
+        {
+          "featureKey": "portConfigurationCode",
+          "label": "Port Config Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.713,
+          "gainImpactDbi": 0.025,
+          "bandwidthImpactMHz": 0.59,
+          "efficiencyImpactPct": 0.5,
+          "importancePct": 0.4
+        },
+        {
+          "featureKey": "conductorSigmaNorm",
+          "label": "Conductor Conductivity",
+          "unit": "rel",
+          "value": 1,
+          "baselineValue": 0.849,
+          "gainImpactDbi": 0.024,
+          "bandwidthImpactMHz": 0.76,
+          "efficiencyImpactPct": 0.22,
+          "importancePct": 0.3
+        },
+        {
+          "featureKey": "feedYMm",
+          "label": "Feed Position Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": -0.151,
+          "gainImpactDbi": 0.011,
+          "bandwidthImpactMHz": -0.12,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0.1
+        },
+        {
+          "featureKey": "phaseXDeg",
+          "label": "Phase Shift X",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": 0.239,
+          "gainImpactDbi": -0.001,
+          "bandwidthImpactMHz": -0.05,
+          "efficiencyImpactPct": -0.09,
+          "importancePct": 0
+        },
+        {
+          "featureKey": "phaseYDeg",
+          "label": "Phase Shift Y",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.372,
+          "gainImpactDbi": 0.001,
+          "bandwidthImpactMHz": 0.02,
+          "efficiencyImpactPct": 0.01,
+          "importancePct": 0
+        }
+      ],
+      "frequencySweep": [
+        {
+          "freqGHz": 1.899,
+          "s11Db": -0.76,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.945,
+          "s11Db": -0.82,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.991,
+          "s11Db": -0.91,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.037,
+          "s11Db": -1.03,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.083,
+          "s11Db": -1.22,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.128,
+          "s11Db": -1.53,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.174,
+          "s11Db": -2.09,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.22,
+          "s11Db": -3.23,
+          "gainDbi": -5.49,
+          "efficiencyPct": 18.4
+        },
+        {
+          "freqGHz": 2.266,
+          "s11Db": -6.12,
+          "gainDbi": -2.66,
+          "efficiencyPct": 40.2
+        },
+        {
+          "freqGHz": 2.312,
+          "s11Db": -15.73,
+          "gainDbi": 2.01,
+          "efficiencyPct": 64
+        },
+        {
+          "freqGHz": 2.357,
+          "s11Db": -34.48,
+          "gainDbi": 3.51,
+          "efficiencyPct": 74.4
+        },
+        {
+          "freqGHz": 2.404,
+          "s11Db": -14.92,
+          "gainDbi": 1.85,
+          "efficiencyPct": 63
+        },
+        {
+          "freqGHz": 2.45,
+          "s11Db": -5.89,
+          "gainDbi": -2.97,
+          "efficiencyPct": 38.9
+        },
+        {
+          "freqGHz": 2.496,
+          "s11Db": -3.15,
+          "gainDbi": -5.49,
+          "efficiencyPct": 17.5
+        },
+        {
+          "freqGHz": 2.542,
+          "s11Db": -2.05,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.588,
+          "s11Db": -1.51,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.634,
+          "s11Db": -1.21,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.68,
+          "s11Db": -1.02,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.726,
+          "s11Db": -0.9,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.772,
+          "s11Db": -0.82,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.818,
+          "s11Db": -0.76,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.863,
+          "s11Db": -0.71,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.909,
+          "s11Db": -0.68,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.955,
+          "s11Db": -0.65,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 3.001,
+          "s11Db": -0.63,
+          "gainDbi": -5.49,
+          "efficiencyPct": 12
+        }
+      ]
+    },
+    "notes": "NL Prompt: \"Design a probe-fed patch antenna on Rogers RO4350B at 2.45 GHz with 8.5 dBi gain.\"",
+    "id": "hist-1795245326933-391",
+    "timestamp": "2026-11-21T07:15:26.933Z"
+  },
+  {
+    "type": "assistant",
+    "designName": "915 MHz Circular Disk Patch",
+    "params": {
+      "id": "nl-1795245326917",
+      "name": "915 MHz Circular Disk Patch",
+      "topology": "circular_patch",
+      "patchLengthMm": 0,
+      "patchWidthMm": 0,
+      "substrateHeightMm": 3.2,
+      "dielectricConstant": 4.4,
+      "lossTangent": 0.02,
+      "feedXMm": 12.05,
+      "feedYMm": 0,
+      "operatingFreqGHz": 0.915,
+      "substrateMaterial": "FR4",
+      "conductorMaterial": "Copper",
+      "insetDepthMm": 0,
+      "notchWidthMm": 0,
+      "probeDiameterMm": 0,
+      "feedTypeCode": 0,
+      "patchRadiusMm": 44.71,
+      "elementSpacingXmm": 0,
+      "elementSpacingYmm": 0,
+      "phaseXDeg": 0,
+      "phaseYDeg": 0,
+      "arrayLayoutCode": 0,
+      "portConfigurationCode": 0,
+      "targetGainDbi": 7,
+      "targetBandwidthMHz": 27
+    },
+    "prediction": {
+      "gainDbi": 1.2,
+      "bandwidthMHz": 35.4,
+      "resonantFreqGHz": 1.029,
+      "efficiencyPct": 52.1,
+      "returnLossDb": -33.98,
+      "vswr": 1.04,
+      "inputImpedanceOhm": 50,
+      "beamwidthDeg": 76,
+      "areaMm2": 9215,
+      "estimatedCostUsd": 6.71,
+      "modelUsed": "ensemble",
+      "provenance": "Demo analytical-estimate surrogate — not EM-validated data.",
+      "isDemoEstimate": true,
+      "featureVector21": [
+        0,
+        0,
+        3.2,
+        4.4,
+        0.02,
+        12.05,
+        0,
+        0.915,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        44.71,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "baselineExpectation": {
+        "gainDbi": 4.19,
+        "bandwidthMHz": 1123.6,
+        "efficiencyPct": 69.7
+      },
+      "shapContributions": [
+        {
+          "featureKey": "operatingFreqGHz",
+          "label": "Operating Frequency",
+          "unit": "GHz",
+          "value": 0.915,
+          "baselineValue": 8.463,
+          "gainImpactDbi": -1.794,
+          "bandwidthImpactMHz": -960.1,
+          "efficiencyImpactPct": -13.27,
+          "importancePct": 63.1
+        },
+        {
+          "featureKey": "topologyCode",
+          "label": "Topology Code",
+          "unit": "code",
+          "value": 2,
+          "baselineValue": 2.057,
+          "gainImpactDbi": -2.335,
+          "bandwidthImpactMHz": -0.49,
+          "efficiencyImpactPct": -0.16,
+          "importancePct": 8.3
+        },
+        {
+          "featureKey": "elementSpacingYmm",
+          "label": "Element Spacing Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 13.215,
+          "gainImpactDbi": -1.984,
+          "bandwidthImpactMHz": 0.19,
+          "efficiencyImpactPct": -0.1,
+          "importancePct": 7.1
+        },
+        {
+          "featureKey": "patchRadiusMm",
+          "label": "Patch Radius",
+          "unit": "mm",
+          "value": 44.71,
+          "baselineValue": 3.152,
+          "gainImpactDbi": -0.14,
+          "bandwidthImpactMHz": -80.98,
+          "efficiencyImpactPct": -2.47,
+          "importancePct": 5.6
+        },
+        {
+          "featureKey": "substrateHeightMm",
+          "label": "Substrate Height (h)",
+          "unit": "mm",
+          "value": 3.2,
+          "baselineValue": 2.309,
+          "gainImpactDbi": 0.573,
+          "bandwidthImpactMHz": 4.73,
+          "efficiencyImpactPct": 8.94,
+          "importancePct": 4.2
+        },
+        {
+          "featureKey": "arrayLayoutCode",
+          "label": "Array Layout Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.29,
+          "gainImpactDbi": -0.729,
+          "bandwidthImpactMHz": -0.81,
+          "efficiencyImpactPct": -0.73,
+          "importancePct": 2.8
+        },
+        {
+          "featureKey": "feedXMm",
+          "label": "Feed Position X",
+          "unit": "mm",
+          "value": 12.05,
+          "baselineValue": 9.792,
+          "gainImpactDbi": -0.619,
+          "bandwidthImpactMHz": -1.38,
+          "efficiencyImpactPct": -0.57,
+          "importancePct": 2.4
+        },
+        {
+          "featureKey": "patchLengthMm",
+          "label": "Patch Length (L)",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 25.507,
+          "gainImpactDbi": 0.088,
+          "bandwidthImpactMHz": 2.43,
+          "efficiencyImpactPct": 4.45,
+          "importancePct": 1.4
+        },
+        {
+          "featureKey": "lossTangent",
+          "label": "Loss Tangent (tan d)",
+          "unit": "",
+          "value": 0.02,
+          "baselineValue": 0.006,
+          "gainImpactDbi": -0.245,
+          "bandwidthImpactMHz": 0.28,
+          "efficiencyImpactPct": -2.6,
+          "importancePct": 1.4
+        },
+        {
+          "featureKey": "dielectricConstant",
+          "label": "Dielectric Constant (er)",
+          "unit": "",
+          "value": 4.4,
+          "baselineValue": 4.536,
+          "gainImpactDbi": -0.04,
+          "bandwidthImpactMHz": 3.58,
+          "efficiencyImpactPct": 3.27,
+          "importancePct": 1
+        },
+        {
+          "featureKey": "elementSpacingXmm",
+          "label": "Element Spacing X",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 13.214,
+          "gainImpactDbi": -0.207,
+          "bandwidthImpactMHz": -0.22,
+          "efficiencyImpactPct": 0.26,
+          "importancePct": 0.8
+        },
+        {
+          "featureKey": "patchWidthMm",
+          "label": "Patch Width (W)",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 32.437,
+          "gainImpactDbi": -0.166,
+          "bandwidthImpactMHz": -1.1,
+          "efficiencyImpactPct": -0.47,
+          "importancePct": 0.7
+        },
+        {
+          "featureKey": "conductorSigmaNorm",
+          "label": "Conductor Conductivity",
+          "unit": "rel",
+          "value": 1,
+          "baselineValue": 0.849,
+          "gainImpactDbi": 0.056,
+          "bandwidthImpactMHz": 0.77,
+          "efficiencyImpactPct": 0.49,
+          "importancePct": 0.3
+        },
+        {
+          "featureKey": "insetDepthMm",
+          "label": "Inset Depth",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 3.819,
+          "gainImpactDbi": 0.056,
+          "bandwidthImpactMHz": 0.79,
+          "efficiencyImpactPct": 0.23,
+          "importancePct": 0.3
+        },
+        {
+          "featureKey": "portConfigurationCode",
+          "label": "Port Config Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.713,
+          "gainImpactDbi": 0.031,
+          "bandwidthImpactMHz": 0.07,
+          "efficiencyImpactPct": -0.29,
+          "importancePct": 0.2
+        },
+        {
+          "featureKey": "feedYMm",
+          "label": "Feed Position Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": -0.151,
+          "gainImpactDbi": 0.011,
+          "bandwidthImpactMHz": -0.02,
+          "efficiencyImpactPct": 0.14,
+          "importancePct": 0.1
+        },
+        {
+          "featureKey": "notchWidthMm",
+          "label": "Notch Width",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 1.119,
+          "gainImpactDbi": 0.013,
+          "bandwidthImpactMHz": -0.16,
+          "efficiencyImpactPct": 0.22,
+          "importancePct": 0.1
+        },
+        {
+          "featureKey": "probeDiameterMm",
+          "label": "Probe Diameter",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 0.256,
+          "gainImpactDbi": 0.029,
+          "bandwidthImpactMHz": -0.52,
+          "efficiencyImpactPct": 0.05,
+          "importancePct": 0.1
+        },
+        {
+          "featureKey": "feedTypeCode",
+          "label": "Feed Type Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.323,
+          "gainImpactDbi": -0.004,
+          "bandwidthImpactMHz": 0.05,
+          "efficiencyImpactPct": 0.06,
+          "importancePct": 0
+        },
+        {
+          "featureKey": "phaseXDeg",
+          "label": "Phase Shift X",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": 0.239,
+          "gainImpactDbi": 0.002,
+          "bandwidthImpactMHz": 0.01,
+          "efficiencyImpactPct": 0.01,
+          "importancePct": 0
+        },
+        {
+          "featureKey": "phaseYDeg",
+          "label": "Phase Shift Y",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.372,
+          "gainImpactDbi": 0,
+          "bandwidthImpactMHz": 0.01,
+          "efficiencyImpactPct": 0.01,
+          "importancePct": 0
+        }
+      ],
+      "frequencySweep": [
+        {
+          "freqGHz": 0.709,
+          "s11Db": -0.73,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.726,
+          "s11Db": -0.76,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.743,
+          "s11Db": -0.79,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.761,
+          "s11Db": -0.83,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.778,
+          "s11Db": -0.87,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.795,
+          "s11Db": -0.93,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.812,
+          "s11Db": -1,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.829,
+          "s11Db": -1.08,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.846,
+          "s11Db": -1.19,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.864,
+          "s11Db": -1.34,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.881,
+          "s11Db": -1.54,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.898,
+          "s11Db": -1.82,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.915,
+          "s11Db": -2.23,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.932,
+          "s11Db": -2.85,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.949,
+          "s11Db": -3.86,
+          "gainDbi": -7.8,
+          "efficiencyPct": 17.1
+        },
+        {
+          "freqGHz": 0.966,
+          "s11Db": -5.64,
+          "gainDbi": -5.66,
+          "efficiencyPct": 26.2
+        },
+        {
+          "freqGHz": 0.984,
+          "s11Db": -9.09,
+          "gainDbi": -2.41,
+          "efficiencyPct": 36.3
+        },
+        {
+          "freqGHz": 1.001,
+          "s11Db": -16.35,
+          "gainDbi": -0.2,
+          "efficiencyPct": 45.3
+        },
+        {
+          "freqGHz": 1.018,
+          "s11Db": -29.4,
+          "gainDbi": 0.99,
+          "efficiencyPct": 51
+        },
+        {
+          "freqGHz": 1.029,
+          "s11Db": -34.48,
+          "gainDbi": 1.2,
+          "efficiencyPct": 52.1
+        },
+        {
+          "freqGHz": 1.052,
+          "s11Db": -19.63,
+          "gainDbi": 0.25,
+          "efficiencyPct": 47.4
+        },
+        {
+          "freqGHz": 1.069,
+          "s11Db": -10.66,
+          "gainDbi": -1.67,
+          "efficiencyPct": 39.1
+        },
+        {
+          "freqGHz": 1.087,
+          "s11Db": -6.4,
+          "gainDbi": -4.62,
+          "efficiencyPct": 29.1
+        },
+        {
+          "freqGHz": 1.104,
+          "s11Db": -4.27,
+          "gainDbi": -7.8,
+          "efficiencyPct": 19.6
+        },
+        {
+          "freqGHz": 1.121,
+          "s11Db": -3.09,
+          "gainDbi": -7.8,
+          "efficiencyPct": 12
+        }
+      ]
+    },
+    "notes": "NL Prompt: \"Build an IoT 915 MHz circular patch antenna on low cost FR-4 substrate.\"",
+    "id": "hist-1795245326920-288",
+    "timestamp": "2026-11-21T07:15:26.920Z"
+  },
+  {
+    "type": "nsga2_optimization",
+    "designName": "Pareto-9 (2x2 Phased Planar Array)",
+    "params": {
+      "id": "nsga-9",
+      "name": "Pareto-9 (2x2 Phased Planar Array)",
+      "topology": "array_2x2",
+      "patchLengthMm": 31.52,
+      "patchWidthMm": 48.46,
+      "substrateHeightMm": 3.31,
+      "dielectricConstant": 3.55,
+      "lossTangent": 0.0027,
+      "feedXMm": 11.11,
+      "feedYMm": 0,
+      "operatingFreqGHz": 2.45,
+      "substrateMaterial": "Rogers_RO4003C",
+      "conductorMaterial": "Copper",
+      "insetDepthMm": 0,
+      "notchWidthMm": 0,
+      "probeDiameterMm": 0,
+      "feedTypeCode": 0,
+      "patchRadiusMm": 0,
+      "elementSpacingXmm": 64.47,
+      "elementSpacingYmm": 63.78,
+      "phaseXDeg": -8.2,
+      "phaseYDeg": 6.1,
+      "arrayLayoutCode": 2,
+      "portConfigurationCode": 0,
+      "targetGainDbi": 11.5,
+      "targetBandwidthMHz": 95
+    },
+    "prediction": {
+      "gainDbi": 8.22,
+      "bandwidthMHz": 117,
+      "resonantFreqGHz": 2.474,
+      "efficiencyPct": 80.8,
+      "returnLossDb": -11.97,
+      "vswr": 1.67,
+      "inputImpedanceOhm": 37.6,
+      "beamwidthDeg": 42,
+      "areaMm2": 13026,
+      "estimatedCostUsd": 41.71,
+      "modelUsed": "ensemble",
+      "provenance": "Demo analytical-estimate surrogate — not EM-validated data.",
+      "isDemoEstimate": true,
+      "featureVector21": [
+        31.52,
+        48.46,
+        3.31,
+        3.55,
+        0.0027,
+        11.11,
+        0,
+        2.45,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        64.47,
+        63.78,
+        -8.2,
+        6.1,
+        2,
+        0
+      ],
+      "baselineExpectation": {
+        "gainDbi": 2.34,
+        "bandwidthMHz": 1009,
+        "efficiencyPct": 63
+      },
+      "shapContributions": [],
+      "frequencySweep": [
+        {
+          "freqGHz": 1.899,
+          "s11Db": -0.77,
+          "gainDbi": -0.78,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.954,
+          "s11Db": -0.83,
+          "gainDbi": -0.78,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.009,
+          "s11Db": -0.91,
+          "gainDbi": -0.78,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.064,
+          "s11Db": -1.02,
+          "gainDbi": -0.78,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.119,
+          "s11Db": -1.18,
+          "gainDbi": -0.78,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.174,
+          "s11Db": -1.43,
+          "gainDbi": -0.78,
+          "efficiencyPct": 19.1
+        },
+        {
+          "freqGHz": 2.23,
+          "s11Db": -1.85,
+          "gainDbi": -0.78,
+          "efficiencyPct": 30.9
+        },
+        {
+          "freqGHz": 2.285,
+          "s11Db": -2.59,
+          "gainDbi": 2.46,
+          "efficiencyPct": 45.4
+        },
+        {
+          "freqGHz": 2.34,
+          "s11Db": -4.05,
+          "gainDbi": 5.32,
+          "efficiencyPct": 60.5
+        },
+        {
+          "freqGHz": 2.395,
+          "s11Db": -7.07,
+          "gainDbi": 7.21,
+          "efficiencyPct": 73.1
+        },
+        {
+          "freqGHz": 2.45,
+          "s11Db": -11.63,
+          "gainDbi": 8.13,
+          "efficiencyPct": 80.1
+        },
+        {
+          "freqGHz": 2.505,
+          "s11Db": -11.12,
+          "gainDbi": 8.06,
+          "efficiencyPct": 79.6
+        },
+        {
+          "freqGHz": 2.56,
+          "s11Db": -6.55,
+          "gainDbi": 7.02,
+          "efficiencyPct": 71.7
+        },
+        {
+          "freqGHz": 2.615,
+          "s11Db": -3.8,
+          "gainDbi": 5.01,
+          "efficiencyPct": 58.6
+        },
+        {
+          "freqGHz": 2.671,
+          "s11Db": -2.47,
+          "gainDbi": 2.01,
+          "efficiencyPct": 43.4
+        },
+        {
+          "freqGHz": 2.726,
+          "s11Db": -1.78,
+          "gainDbi": -0.78,
+          "efficiencyPct": 29.2
+        },
+        {
+          "freqGHz": 2.781,
+          "s11Db": -1.4,
+          "gainDbi": -0.78,
+          "efficiencyPct": 17.8
+        },
+        {
+          "freqGHz": 2.836,
+          "s11Db": -1.16,
+          "gainDbi": -0.78,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.891,
+          "s11Db": -1,
+          "gainDbi": -0.78,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.946,
+          "s11Db": -0.89,
+          "gainDbi": -0.78,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 3.001,
+          "s11Db": -0.82,
+          "gainDbi": -0.78,
+          "efficiencyPct": 12
+        }
+      ]
+    },
+    "notes": "NSGA-II knee-point selection (18 Pareto solutions)",
+    "id": "hist-1795240403528-915",
+    "timestamp": "2026-11-21T05:53:23.528Z"
+  },
+  {
+    "type": "nsga2_optimization",
+    "designName": "Pareto-64 (2x2 Phased Planar Array)",
+    "params": {
+      "id": "nsga-64",
+      "name": "Pareto-64 (2x2 Phased Planar Array)",
+      "topology": "array_2x2",
+      "patchLengthMm": 31.97,
+      "patchWidthMm": 37.63,
+      "substrateHeightMm": 2.86,
+      "dielectricConstant": 3.55,
+      "lossTangent": 0.0027,
+      "feedXMm": 11.24,
+      "feedYMm": 0,
+      "operatingFreqGHz": 2.45,
+      "substrateMaterial": "Rogers_RO4003C",
+      "conductorMaterial": "Aluminum",
+      "insetDepthMm": 0,
+      "notchWidthMm": 0,
+      "probeDiameterMm": 0,
+      "feedTypeCode": 0,
+      "patchRadiusMm": 0,
+      "elementSpacingXmm": 61.18,
+      "elementSpacingYmm": 61.18,
+      "phaseXDeg": 0,
+      "phaseYDeg": 0,
+      "arrayLayoutCode": 1,
+      "portConfigurationCode": 0,
+      "targetGainDbi": 11.5,
+      "targetBandwidthMHz": 95
+    },
+    "prediction": {
+      "gainDbi": 8.37,
+      "bandwidthMHz": 93,
+      "resonantFreqGHz": 2.541,
+      "efficiencyPct": 78.9,
+      "returnLossDb": -12.91,
+      "vswr": 1.58,
+      "inputImpedanceOhm": 64.9,
+      "beamwidthDeg": 36,
+      "areaMm2": 10339,
+      "estimatedCostUsd": 27.34,
+      "modelUsed": "ensemble",
+      "provenance": "Demo analytical-estimate surrogate — not EM-validated data.",
+      "isDemoEstimate": true,
+      "featureVector21": [
+        31.97,
+        37.63,
+        2.86,
+        3.55,
+        0.0027,
+        11.24,
+        0,
+        2.45,
+        3,
+        0.6034,
+        0,
+        0,
+        0,
+        0,
+        0,
+        61.18,
+        61.18,
+        0,
+        0,
+        1,
+        0
+      ],
+      "baselineExpectation": {
+        "gainDbi": 2.34,
+        "bandwidthMHz": 1009,
+        "efficiencyPct": 63
+      },
+      "shapContributions": [
+        {
+          "featureKey": "operatingFreqGHz",
+          "label": "Operating Frequency",
+          "unit": "GHz",
+          "value": 2.45,
+          "baselineValue": 8.136,
+          "gainImpactDbi": -0.509,
+          "bandwidthImpactMHz": -431.41,
+          "efficiencyImpactPct": -2.01,
+          "importancePct": 43.3
+        },
+        {
+          "featureKey": "dielectricConstant",
+          "label": "Dielectric Constant (er)",
+          "unit": "",
+          "value": 3.55,
+          "baselineValue": 4.881,
+          "gainImpactDbi": 4.166,
+          "bandwidthImpactMHz": 7.56,
+          "efficiencyImpactPct": 24.77,
+          "importancePct": 33.4
+        },
+        {
+          "featureKey": "elementSpacingYmm",
+          "label": "Element Spacing Y",
+          "unit": "mm",
+          "value": 61.18,
+          "baselineValue": 12.772,
+          "gainImpactDbi": 0.338,
+          "bandwidthImpactMHz": -33.38,
+          "efficiencyImpactPct": -0.01,
+          "importancePct": 5
+        },
+        {
+          "featureKey": "substrateHeightMm",
+          "label": "Substrate Height (h)",
+          "unit": "mm",
+          "value": 2.86,
+          "baselineValue": 2.063,
+          "gainImpactDbi": 0.335,
+          "bandwidthImpactMHz": 25.86,
+          "efficiencyImpactPct": 1.81,
+          "importancePct": 4.9
+        },
+        {
+          "featureKey": "elementSpacingXmm",
+          "label": "Element Spacing X",
+          "unit": "mm",
+          "value": 61.18,
+          "baselineValue": 13.193,
+          "gainImpactDbi": 0.181,
+          "bandwidthImpactMHz": -22.36,
+          "efficiencyImpactPct": -0.36,
+          "importancePct": 3.2
+        },
+        {
+          "featureKey": "lossTangent",
+          "label": "Loss Tangent (tan d)",
+          "unit": "",
+          "value": 0.0027,
+          "baselineValue": 0.006,
+          "gainImpactDbi": 0.133,
+          "bandwidthImpactMHz": -8.12,
+          "efficiencyImpactPct": 1.23,
+          "importancePct": 1.9
+        },
+        {
+          "featureKey": "arrayLayoutCode",
+          "label": "Array Layout Code",
+          "unit": "code",
+          "value": 1,
+          "baselineValue": 0.281,
+          "gainImpactDbi": 0.076,
+          "bandwidthImpactMHz": 11.95,
+          "efficiencyImpactPct": 0.1,
+          "importancePct": 1.6
+        },
+        {
+          "featureKey": "feedXMm",
+          "label": "Feed Position X",
+          "unit": "mm",
+          "value": 11.24,
+          "baselineValue": 10.242,
+          "gainImpactDbi": -0.151,
+          "bandwidthImpactMHz": 1.26,
+          "efficiencyImpactPct": -0.39,
+          "importancePct": 1.1
+        },
+        {
+          "featureKey": "probeDiameterMm",
+          "label": "Probe Diameter",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 0.275,
+          "gainImpactDbi": 0.036,
+          "bandwidthImpactMHz": 8.56,
+          "efficiencyImpactPct": -0.25,
+          "importancePct": 1.1
+        },
+        {
+          "featureKey": "portConfigurationCode",
+          "label": "Port Config Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.65,
+          "gainImpactDbi": 0.111,
+          "bandwidthImpactMHz": -1.01,
+          "efficiencyImpactPct": 0.24,
+          "importancePct": 0.8
+        },
+        {
+          "featureKey": "patchLengthMm",
+          "label": "Patch Length (L)",
+          "unit": "mm",
+          "value": 31.97,
+          "baselineValue": 25.306,
+          "gainImpactDbi": 0.045,
+          "bandwidthImpactMHz": -3.33,
+          "efficiencyImpactPct": -0.05,
+          "importancePct": 0.6
+        },
+        {
+          "featureKey": "patchWidthMm",
+          "label": "Patch Width (W)",
+          "unit": "mm",
+          "value": 37.63,
+          "baselineValue": 32.288,
+          "gainImpactDbi": -0.016,
+          "bandwidthImpactMHz": -4.8,
+          "efficiencyImpactPct": 0.07,
+          "importancePct": 0.6
+        },
+        {
+          "featureKey": "notchWidthMm",
+          "label": "Notch Width",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 1.07,
+          "gainImpactDbi": 0.055,
+          "bandwidthImpactMHz": -2.31,
+          "efficiencyImpactPct": 0.22,
+          "importancePct": 0.6
+        },
+        {
+          "featureKey": "conductorSigmaNorm",
+          "label": "Conductor Conductivity",
+          "unit": "rel",
+          "value": 0.6034,
+          "baselineValue": 0.865,
+          "gainImpactDbi": 0.075,
+          "bandwidthImpactMHz": -0.47,
+          "efficiencyImpactPct": 0.01,
+          "importancePct": 0.5
+        },
+        {
+          "featureKey": "topologyCode",
+          "label": "Topology Code",
+          "unit": "code",
+          "value": 3,
+          "baselineValue": 2.015,
+          "gainImpactDbi": -0.009,
+          "bandwidthImpactMHz": 1.62,
+          "efficiencyImpactPct": -0.52,
+          "importancePct": 0.4
+        },
+        {
+          "featureKey": "feedTypeCode",
+          "label": "Feed Type Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.356,
+          "gainImpactDbi": -0.006,
+          "bandwidthImpactMHz": -3.95,
+          "efficiencyImpactPct": -0.14,
+          "importancePct": 0.4
+        },
+        {
+          "featureKey": "insetDepthMm",
+          "label": "Inset Depth",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 3.706,
+          "gainImpactDbi": 0.016,
+          "bandwidthImpactMHz": -0.32,
+          "efficiencyImpactPct": -0.17,
+          "importancePct": 0.2
+        },
+        {
+          "featureKey": "patchRadiusMm",
+          "label": "Patch Radius",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 3.241,
+          "gainImpactDbi": 0.007,
+          "bandwidthImpactMHz": -1.83,
+          "efficiencyImpactPct": -0.11,
+          "importancePct": 0.2
+        },
+        {
+          "featureKey": "feedYMm",
+          "label": "Feed Position Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": -0.083,
+          "gainImpactDbi": -0.001,
+          "bandwidthImpactMHz": -0.15,
+          "efficiencyImpactPct": -0.01,
+          "importancePct": 0
+        },
+        {
+          "featureKey": "phaseXDeg",
+          "label": "Phase Shift X",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.165,
+          "gainImpactDbi": 0.001,
+          "bandwidthImpactMHz": 0.09,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0
+        },
+        {
+          "featureKey": "phaseYDeg",
+          "label": "Phase Shift Y",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.116,
+          "gainImpactDbi": -0.001,
+          "bandwidthImpactMHz": -0.06,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0
+        }
+      ],
+      "frequencySweep": [
+        {
+          "freqGHz": 1.899,
+          "s11Db": -0.65,
+          "gainDbi": -0.63,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.954,
+          "s11Db": -0.68,
+          "gainDbi": -0.63,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.009,
+          "s11Db": -0.72,
+          "gainDbi": -0.63,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.064,
+          "s11Db": -0.77,
+          "gainDbi": -0.63,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.119,
+          "s11Db": -0.84,
+          "gainDbi": -0.63,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.174,
+          "s11Db": -0.95,
+          "gainDbi": -0.63,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.23,
+          "s11Db": -1.11,
+          "gainDbi": -0.63,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.285,
+          "s11Db": -1.38,
+          "gainDbi": -0.63,
+          "efficiencyPct": 14.8
+        },
+        {
+          "freqGHz": 2.34,
+          "s11Db": -1.87,
+          "gainDbi": -0.63,
+          "efficiencyPct": 28.2
+        },
+        {
+          "freqGHz": 2.395,
+          "s11Db": -2.87,
+          "gainDbi": 2.94,
+          "efficiencyPct": 45.8
+        },
+        {
+          "freqGHz": 2.45,
+          "s11Db": -5.24,
+          "gainDbi": 6.26,
+          "efficiencyPct": 63.9
+        },
+        {
+          "freqGHz": 2.505,
+          "s11Db": -10.68,
+          "gainDbi": 8.04,
+          "efficiencyPct": 76.4
+        },
+        {
+          "freqGHz": 2.56,
+          "s11Db": -12.49,
+          "gainDbi": 8.28,
+          "efficiencyPct": 78.2
+        },
+        {
+          "freqGHz": 2.615,
+          "s11Db": -6.5,
+          "gainDbi": 6.96,
+          "efficiencyPct": 68.5
+        },
+        {
+          "freqGHz": 2.671,
+          "s11Db": -3.38,
+          "gainDbi": 4.1,
+          "efficiencyPct": 51.5
+        },
+        {
+          "freqGHz": 2.726,
+          "s11Db": -2.1,
+          "gainDbi": -0.3,
+          "efficiencyPct": 33.2
+        },
+        {
+          "freqGHz": 2.781,
+          "s11Db": -1.5,
+          "gainDbi": -0.63,
+          "efficiencyPct": 18.3
+        },
+        {
+          "freqGHz": 2.836,
+          "s11Db": -1.18,
+          "gainDbi": -0.63,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.891,
+          "s11Db": -0.99,
+          "gainDbi": -0.63,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.946,
+          "s11Db": -0.87,
+          "gainDbi": -0.63,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 3.001,
+          "s11Db": -0.79,
+          "gainDbi": -0.63,
+          "efficiencyPct": 12
+        }
+      ]
+    },
+    "notes": "NSGA-II knee-point selection (18 Pareto solutions)",
+    "id": "hist-1795178856125-640",
+    "timestamp": "2026-11-20T12:47:36.125Z"
+  },
+  {
+    "type": "assistant",
+    "designName": "2.4 GHz Microstrip Inset Patch",
+    "params": {
+      "id": "nl-1795178856035",
+      "name": "2.4 GHz Microstrip Inset Patch",
+      "topology": "microstrip_patch",
+      "patchLengthMm": 41.08,
+      "patchWidthMm": 49.38,
+      "substrateHeightMm": 2,
+      "dielectricConstant": 2.2,
+      "lossTangent": 0.0009,
+      "feedXMm": 14.49,
+      "feedYMm": 0,
+      "operatingFreqGHz": 2.4,
+      "substrateMaterial": "Rogers_RT5880",
+      "conductorMaterial": "Copper",
+      "insetDepthMm": 14.64,
+      "notchWidthMm": 3.95,
+      "probeDiameterMm": 0,
+      "feedTypeCode": 0,
+      "patchRadiusMm": 0,
+      "elementSpacingXmm": 0,
+      "elementSpacingYmm": 0,
+      "phaseXDeg": 0,
+      "phaseYDeg": 0,
+      "arrayLayoutCode": 0,
+      "portConfigurationCode": 0,
+      "targetGainDbi": 11.2,
+      "targetBandwidthMHz": 144
+    },
+    "prediction": {
+      "gainDbi": 3.83,
+      "bandwidthMHz": 98.5,
+      "resonantFreqGHz": 2.416,
+      "efficiencyPct": 88,
+      "returnLossDb": -33.98,
+      "vswr": 1.04,
+      "inputImpedanceOhm": 48.8,
+      "beamwidthDeg": 82.3,
+      "areaMm2": 3258,
+      "estimatedCostUsd": 16.64,
+      "modelUsed": "ensemble",
+      "provenance": "Demo analytical-estimate surrogate — not EM-validated data.",
+      "isDemoEstimate": true,
+      "featureVector21": [
+        41.08,
+        49.38,
+        2,
+        2.2,
+        0.0009,
+        14.49,
+        0,
+        2.4,
+        0,
+        1,
+        14.64,
+        3.95,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "baselineExpectation": {
+        "gainDbi": 2.34,
+        "bandwidthMHz": 1009,
+        "efficiencyPct": 63
+      },
+      "shapContributions": [
+        {
+          "featureKey": "dielectricConstant",
+          "label": "Dielectric Constant (er)",
+          "unit": "",
+          "value": 2.2,
+          "baselineValue": 4.881,
+          "gainImpactDbi": 4.415,
+          "bandwidthImpactMHz": 13.45,
+          "efficiencyImpactPct": 37.72,
+          "importancePct": 34.9
+        },
+        {
+          "featureKey": "operatingFreqGHz",
+          "label": "Operating Frequency",
+          "unit": "GHz",
+          "value": 2.4,
+          "baselineValue": 8.136,
+          "gainImpactDbi": -0.399,
+          "bandwidthImpactMHz": -297.42,
+          "efficiencyImpactPct": -2.53,
+          "importancePct": 26.8
+        },
+        {
+          "featureKey": "topologyCode",
+          "label": "Topology Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 2.015,
+          "gainImpactDbi": -3.058,
+          "bandwidthImpactMHz": 22.26,
+          "efficiencyImpactPct": 0.78,
+          "importancePct": 17.6
+        },
+        {
+          "featureKey": "lossTangent",
+          "label": "Loss Tangent (tan d)",
+          "unit": "",
+          "value": 0.0009,
+          "baselineValue": 0.006,
+          "gainImpactDbi": 0.367,
+          "bandwidthImpactMHz": -9.78,
+          "efficiencyImpactPct": 4.45,
+          "importancePct": 4
+        },
+        {
+          "featureKey": "elementSpacingXmm",
+          "label": "Element Spacing X",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 13.193,
+          "gainImpactDbi": -0.51,
+          "bandwidthImpactMHz": -3.67,
+          "efficiencyImpactPct": -0.14,
+          "importancePct": 2.9
+        },
+        {
+          "featureKey": "arrayLayoutCode",
+          "label": "Array Layout Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.281,
+          "gainImpactDbi": -0.524,
+          "bandwidthImpactMHz": -2.34,
+          "efficiencyImpactPct": -0.19,
+          "importancePct": 2.9
+        },
+        {
+          "featureKey": "insetDepthMm",
+          "label": "Inset Depth",
+          "unit": "mm",
+          "value": 14.64,
+          "baselineValue": 3.706,
+          "gainImpactDbi": -0.167,
+          "bandwidthImpactMHz": 20.08,
+          "efficiencyImpactPct": -0.39,
+          "importancePct": 2.6
+        },
+        {
+          "featureKey": "elementSpacingYmm",
+          "label": "Element Spacing Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 12.772,
+          "gainImpactDbi": -0.174,
+          "bandwidthImpactMHz": -9.61,
+          "efficiencyImpactPct": -0.09,
+          "importancePct": 1.7
+        },
+        {
+          "featureKey": "feedXMm",
+          "label": "Feed Position X",
+          "unit": "mm",
+          "value": 14.49,
+          "baselineValue": 10.242,
+          "gainImpactDbi": -0.149,
+          "bandwidthImpactMHz": -1.51,
+          "efficiencyImpactPct": -1.5,
+          "importancePct": 1.3
+        },
+        {
+          "featureKey": "feedTypeCode",
+          "label": "Feed Type Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.356,
+          "gainImpactDbi": 0.078,
+          "bandwidthImpactMHz": -6.84,
+          "efficiencyImpactPct": 0.42,
+          "importancePct": 1.1
+        },
+        {
+          "featureKey": "patchWidthMm",
+          "label": "Patch Width (W)",
+          "unit": "mm",
+          "value": 49.38,
+          "baselineValue": 32.288,
+          "gainImpactDbi": 0.069,
+          "bandwidthImpactMHz": -5.45,
+          "efficiencyImpactPct": 0.63,
+          "importancePct": 1
+        },
+        {
+          "featureKey": "patchLengthMm",
+          "label": "Patch Length (L)",
+          "unit": "mm",
+          "value": 41.08,
+          "baselineValue": 25.306,
+          "gainImpactDbi": -0.061,
+          "bandwidthImpactMHz": 5.44,
+          "efficiencyImpactPct": -0.49,
+          "importancePct": 0.9
+        },
+        {
+          "featureKey": "notchWidthMm",
+          "label": "Notch Width",
+          "unit": "mm",
+          "value": 3.95,
+          "baselineValue": 1.07,
+          "gainImpactDbi": -0.084,
+          "bandwidthImpactMHz": 2.97,
+          "efficiencyImpactPct": -0.15,
+          "importancePct": 0.7
+        },
+        {
+          "featureKey": "portConfigurationCode",
+          "label": "Port Config Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.65,
+          "gainImpactDbi": 0.057,
+          "bandwidthImpactMHz": -1.66,
+          "efficiencyImpactPct": 0.36,
+          "importancePct": 0.5
+        },
+        {
+          "featureKey": "probeDiameterMm",
+          "label": "Probe Diameter",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 0.275,
+          "gainImpactDbi": -0.021,
+          "bandwidthImpactMHz": 2.87,
+          "efficiencyImpactPct": -0.11,
+          "importancePct": 0.4
+        },
+        {
+          "featureKey": "patchRadiusMm",
+          "label": "Patch Radius",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 3.241,
+          "gainImpactDbi": 0.032,
+          "bandwidthImpactMHz": 2.3,
+          "efficiencyImpactPct": 0.32,
+          "importancePct": 0.4
+        },
+        {
+          "featureKey": "conductorSigmaNorm",
+          "label": "Conductor Conductivity",
+          "unit": "rel",
+          "value": 1,
+          "baselineValue": 0.865,
+          "gainImpactDbi": 0.006,
+          "bandwidthImpactMHz": 1.19,
+          "efficiencyImpactPct": 0.16,
+          "importancePct": 0.2
+        },
+        {
+          "featureKey": "substrateHeightMm",
+          "label": "Substrate Height (h)",
+          "unit": "mm",
+          "value": 2,
+          "baselineValue": 2.063,
+          "gainImpactDbi": -0.013,
+          "bandwidthImpactMHz": -0.03,
+          "efficiencyImpactPct": -0.12,
+          "importancePct": 0.1
+        },
+        {
+          "featureKey": "feedYMm",
+          "label": "Feed Position Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": -0.083,
+          "gainImpactDbi": 0,
+          "bandwidthImpactMHz": 0.35,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0
+        },
+        {
+          "featureKey": "phaseXDeg",
+          "label": "Phase Shift X",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.165,
+          "gainImpactDbi": -0.001,
+          "bandwidthImpactMHz": -0.08,
+          "efficiencyImpactPct": -0.01,
+          "importancePct": 0
+        },
+        {
+          "featureKey": "phaseYDeg",
+          "label": "Phase Shift Y",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.116,
+          "gainImpactDbi": 0,
+          "bandwidthImpactMHz": -0.06,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0
+        }
+      ],
+      "frequencySweep": [
+        {
+          "freqGHz": 1.86,
+          "s11Db": -1.08,
+          "gainDbi": -5.17,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.914,
+          "s11Db": -1.21,
+          "gainDbi": -5.17,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.968,
+          "s11Db": -1.39,
+          "gainDbi": -5.17,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.022,
+          "s11Db": -1.64,
+          "gainDbi": -5.17,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.076,
+          "s11Db": -2.01,
+          "gainDbi": -5.17,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.13,
+          "s11Db": -2.6,
+          "gainDbi": -5.17,
+          "efficiencyPct": 13.8
+        },
+        {
+          "freqGHz": 2.184,
+          "s11Db": -3.59,
+          "gainDbi": -5.17,
+          "efficiencyPct": 26
+        },
+        {
+          "freqGHz": 2.238,
+          "s11Db": -5.44,
+          "gainDbi": -3.35,
+          "efficiencyPct": 42.9
+        },
+        {
+          "freqGHz": 2.292,
+          "s11Db": -9.32,
+          "gainDbi": 0.34,
+          "efficiencyPct": 62.1
+        },
+        {
+          "freqGHz": 2.346,
+          "s11Db": -18.3,
+          "gainDbi": 2.72,
+          "efficiencyPct": 78.7
+        },
+        {
+          "freqGHz": 2.4,
+          "s11Db": -32.94,
+          "gainDbi": 3.77,
+          "efficiencyPct": 87.5
+        },
+        {
+          "freqGHz": 2.454,
+          "s11Db": -27.3,
+          "gainDbi": 3.5,
+          "efficiencyPct": 85.2
+        },
+        {
+          "freqGHz": 2.508,
+          "s11Db": -13.72,
+          "gainDbi": 1.91,
+          "efficiencyPct": 72.6
+        },
+        {
+          "freqGHz": 2.562,
+          "s11Db": -7.36,
+          "gainDbi": -1,
+          "efficiencyPct": 54.3
+        },
+        {
+          "freqGHz": 2.616,
+          "s11Db": -4.54,
+          "gainDbi": -5.17,
+          "efficiencyPct": 35.5
+        },
+        {
+          "freqGHz": 2.67,
+          "s11Db": -3.12,
+          "gainDbi": -5.17,
+          "efficiencyPct": 20.4
+        },
+        {
+          "freqGHz": 2.724,
+          "s11Db": -2.33,
+          "gainDbi": -5.17,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.778,
+          "s11Db": -1.84,
+          "gainDbi": -5.17,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.832,
+          "s11Db": -1.53,
+          "gainDbi": -5.17,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.886,
+          "s11Db": -1.31,
+          "gainDbi": -5.17,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.94,
+          "s11Db": -1.15,
+          "gainDbi": -5.17,
+          "efficiencyPct": 12
+        }
+      ]
+    },
+    "notes": "NL Prompt: \"Design a compact microstrip patch antenna operating at 2.4 GHz with high gain and wide ban\"",
+    "id": "hist-1795178856049-684",
+    "timestamp": "2026-11-20T12:47:36.049Z"
+  },
+  {
+    "type": "assistant",
+    "designName": "2.4 GHz 2x2 Phased Planar Array",
+    "params": {
+      "id": "nl-1795178829562",
+      "name": "2.4 GHz 2x2 Phased Planar Array",
+      "topology": "array_2x2",
+      "patchLengthMm": 19.4,
+      "patchWidthMm": 26.88,
+      "substrateHeightMm": 2.54,
+      "dielectricConstant": 9.8,
+      "lossTangent": 0.0002,
+      "feedXMm": 7.74,
+      "feedYMm": 0,
+      "operatingFreqGHz": 2.4,
+      "substrateMaterial": "Alumina",
+      "conductorMaterial": "Copper",
+      "insetDepthMm": 0,
+      "notchWidthMm": 0,
+      "probeDiameterMm": 0,
+      "feedTypeCode": 0,
+      "patchRadiusMm": 0,
+      "elementSpacingXmm": 62.46,
+      "elementSpacingYmm": 62.46,
+      "phaseXDeg": 0,
+      "phaseYDeg": 0,
+      "arrayLayoutCode": 1,
+      "portConfigurationCode": 0,
+      "targetGainDbi": 11.2,
+      "targetBandwidthMHz": 144
+    },
+    "prediction": {
+      "gainDbi": 3.77,
+      "bandwidthMHz": 68.7,
+      "resonantFreqGHz": 2.482,
+      "efficiencyPct": 46.8,
+      "returnLossDb": -33.98,
+      "vswr": 1.04,
+      "inputImpedanceOhm": 49.8,
+      "beamwidthDeg": 36,
+      "areaMm2": 5861,
+      "estimatedCostUsd": 39.07,
+      "modelUsed": "ensemble",
+      "provenance": "Demo analytical-estimate surrogate — not EM-validated data.",
+      "isDemoEstimate": true,
+      "featureVector21": [
+        19.4,
+        26.88,
+        2.54,
+        9.8,
+        0.0002,
+        7.74,
+        0,
+        2.4,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        62.46,
+        62.46,
+        0,
+        0,
+        1,
+        0
+      ],
+      "baselineExpectation": {
+        "gainDbi": 2.34,
+        "bandwidthMHz": 1009,
+        "efficiencyPct": 63
+      },
+      "shapContributions": [
+        {
+          "featureKey": "operatingFreqGHz",
+          "label": "Operating Frequency",
+          "unit": "GHz",
+          "value": 2.4,
+          "baselineValue": 8.136,
+          "gainImpactDbi": -0.134,
+          "bandwidthImpactMHz": -429.71,
+          "efficiencyImpactPct": -2.84,
+          "importancePct": 58.3
+        },
+        {
+          "featureKey": "dielectricConstant",
+          "label": "Dielectric Constant (er)",
+          "unit": "",
+          "value": 9.8,
+          "baselineValue": 4.881,
+          "gainImpactDbi": -0.68,
+          "bandwidthImpactMHz": 3.35,
+          "efficiencyImpactPct": -5.25,
+          "importancePct": 8.6
+        },
+        {
+          "featureKey": "elementSpacingYmm",
+          "label": "Element Spacing Y",
+          "unit": "mm",
+          "value": 62.46,
+          "baselineValue": 12.772,
+          "gainImpactDbi": -0.506,
+          "bandwidthImpactMHz": -26.76,
+          "efficiencyImpactPct": -0.9,
+          "importancePct": 8.1
+        },
+        {
+          "featureKey": "elementSpacingXmm",
+          "label": "Element Spacing X",
+          "unit": "mm",
+          "value": 62.46,
+          "baselineValue": 13.193,
+          "gainImpactDbi": 0.375,
+          "bandwidthImpactMHz": -17.14,
+          "efficiencyImpactPct": -0.19,
+          "importancePct": 5.4
+        },
+        {
+          "featureKey": "lossTangent",
+          "label": "Loss Tangent (tan d)",
+          "unit": "",
+          "value": 0.0002,
+          "baselineValue": 0.006,
+          "gainImpactDbi": -0.477,
+          "bandwidthImpactMHz": -1.5,
+          "efficiencyImpactPct": 0.92,
+          "importancePct": 4.5
+        },
+        {
+          "featureKey": "feedXMm",
+          "label": "Feed Position X",
+          "unit": "mm",
+          "value": 7.74,
+          "baselineValue": 10.242,
+          "gainImpactDbi": 0.358,
+          "bandwidthImpactMHz": -5.97,
+          "efficiencyImpactPct": 0.11,
+          "importancePct": 3.8
+        },
+        {
+          "featureKey": "substrateHeightMm",
+          "label": "Substrate Height (h)",
+          "unit": "mm",
+          "value": 2.54,
+          "baselineValue": 2.063,
+          "gainImpactDbi": 0.2,
+          "bandwidthImpactMHz": 1.93,
+          "efficiencyImpactPct": 0.5,
+          "importancePct": 2.1
+        },
+        {
+          "featureKey": "probeDiameterMm",
+          "label": "Probe Diameter",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 0.275,
+          "gainImpactDbi": 0.015,
+          "bandwidthImpactMHz": 9,
+          "efficiencyImpactPct": -0.4,
+          "importancePct": 1.5
+        },
+        {
+          "featureKey": "arrayLayoutCode",
+          "label": "Array Layout Code",
+          "unit": "code",
+          "value": 1,
+          "baselineValue": 0.281,
+          "gainImpactDbi": 0.077,
+          "bandwidthImpactMHz": -4.27,
+          "efficiencyImpactPct": 0.03,
+          "importancePct": 1.2
+        },
+        {
+          "featureKey": "topologyCode",
+          "label": "Topology Code",
+          "unit": "code",
+          "value": 3,
+          "baselineValue": 2.015,
+          "gainImpactDbi": 0.057,
+          "bandwidthImpactMHz": 3.26,
+          "efficiencyImpactPct": -0.2,
+          "importancePct": 1
+        },
+        {
+          "featureKey": "feedTypeCode",
+          "label": "Feed Type Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.356,
+          "gainImpactDbi": 0.07,
+          "bandwidthImpactMHz": 3.07,
+          "efficiencyImpactPct": 0.08,
+          "importancePct": 1
+        },
+        {
+          "featureKey": "patchWidthMm",
+          "label": "Patch Width (W)",
+          "unit": "mm",
+          "value": 26.88,
+          "baselineValue": 32.288,
+          "gainImpactDbi": 0.047,
+          "bandwidthImpactMHz": 0.66,
+          "efficiencyImpactPct": -0.94,
+          "importancePct": 0.9
+        },
+        {
+          "featureKey": "notchWidthMm",
+          "label": "Notch Width",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 1.07,
+          "gainImpactDbi": 0.021,
+          "bandwidthImpactMHz": -5.74,
+          "efficiencyImpactPct": 0.02,
+          "importancePct": 0.9
+        },
+        {
+          "featureKey": "patchLengthMm",
+          "label": "Patch Length (L)",
+          "unit": "mm",
+          "value": 19.4,
+          "baselineValue": 25.306,
+          "gainImpactDbi": 0.017,
+          "bandwidthImpactMHz": -3.87,
+          "efficiencyImpactPct": 0.22,
+          "importancePct": 0.7
+        },
+        {
+          "featureKey": "patchRadiusMm",
+          "label": "Patch Radius",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 3.241,
+          "gainImpactDbi": -0.006,
+          "bandwidthImpactMHz": -3.51,
+          "efficiencyImpactPct": 0.11,
+          "importancePct": 0.6
+        },
+        {
+          "featureKey": "portConfigurationCode",
+          "label": "Port Config Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.65,
+          "gainImpactDbi": 0.051,
+          "bandwidthImpactMHz": 1.09,
+          "efficiencyImpactPct": 0.03,
+          "importancePct": 0.6
+        },
+        {
+          "featureKey": "insetDepthMm",
+          "label": "Inset Depth",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 3.706,
+          "gainImpactDbi": 0.032,
+          "bandwidthImpactMHz": 0.64,
+          "efficiencyImpactPct": -0.14,
+          "importancePct": 0.4
+        },
+        {
+          "featureKey": "conductorSigmaNorm",
+          "label": "Conductor Conductivity",
+          "unit": "rel",
+          "value": 1,
+          "baselineValue": 0.865,
+          "gainImpactDbi": -0.006,
+          "bandwidthImpactMHz": 1.74,
+          "efficiencyImpactPct": -0.05,
+          "importancePct": 0.3
+        },
+        {
+          "featureKey": "feedYMm",
+          "label": "Feed Position Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": -0.083,
+          "gainImpactDbi": -0.002,
+          "bandwidthImpactMHz": 0.11,
+          "efficiencyImpactPct": -0.01,
+          "importancePct": 0
+        },
+        {
+          "featureKey": "phaseXDeg",
+          "label": "Phase Shift X",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.165,
+          "gainImpactDbi": 0,
+          "bandwidthImpactMHz": -0.14,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0
+        },
+        {
+          "featureKey": "phaseYDeg",
+          "label": "Phase Shift Y",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.116,
+          "gainImpactDbi": 0,
+          "bandwidthImpactMHz": -0.07,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0
+        }
+      ],
+      "frequencySweep": [
+        {
+          "freqGHz": 1.86,
+          "s11Db": -0.73,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.914,
+          "s11Db": -0.77,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.968,
+          "s11Db": -0.83,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.022,
+          "s11Db": -0.92,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.076,
+          "s11Db": -1.03,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.13,
+          "s11Db": -1.2,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.184,
+          "s11Db": -1.47,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.238,
+          "s11Db": -1.93,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.292,
+          "s11Db": -2.8,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.346,
+          "s11Db": -4.72,
+          "gainDbi": -4.85,
+          "efficiencyPct": 19.8
+        },
+        {
+          "freqGHz": 2.4,
+          "s11Db": -10.03,
+          "gainDbi": 0.64,
+          "efficiencyPct": 34.2
+        },
+        {
+          "freqGHz": 2.454,
+          "s11Db": -26.66,
+          "gainDbi": 3.4,
+          "efficiencyPct": 45.1
+        },
+        {
+          "freqGHz": 2.508,
+          "s11Db": -27.52,
+          "gainDbi": 3.45,
+          "efficiencyPct": 45.3
+        },
+        {
+          "freqGHz": 2.562,
+          "s11Db": -10.38,
+          "gainDbi": 0.79,
+          "efficiencyPct": 34.7
+        },
+        {
+          "freqGHz": 2.616,
+          "s11Db": -4.83,
+          "gainDbi": -4.6,
+          "efficiencyPct": 20.3
+        },
+        {
+          "freqGHz": 2.67,
+          "s11Db": -2.85,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.724,
+          "s11Db": -1.96,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.778,
+          "s11Db": -1.49,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.832,
+          "s11Db": -1.21,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.886,
+          "s11Db": -1.04,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.94,
+          "s11Db": -0.92,
+          "gainDbi": -5.23,
+          "efficiencyPct": 12
+        }
+      ]
+    },
+    "notes": "NL Prompt: \"Design a compact microstrip patch antenna operating at 2.4 GHz with high gain and wide ban\"",
+    "id": "hist-1795178829565-796",
+    "timestamp": "2026-11-20T12:47:09.565Z"
+  },
+  {
+    "id": "hist-seed-1",
+    "timestamp": "2026-11-20T08:47:07.708Z",
+    "type": "prediction",
+    "designName": "2.45 GHz Wi-Fi Inset Patch",
+    "params": {
+      "id": "seed-wifi-245",
+      "name": "2.45 GHz Wi-Fi Inset Patch",
+      "topology": "microstrip_patch",
+      "patchLengthMm": 32.06,
+      "patchWidthMm": 40.56,
+      "substrateHeightMm": 1.524,
+      "dielectricConstant": 3.55,
+      "lossTangent": 0.0027,
+      "feedXMm": 11.56,
+      "feedYMm": 0,
+      "operatingFreqGHz": 2.45,
+      "substrateMaterial": "Rogers_RO4003C",
+      "conductorMaterial": "Copper",
+      "insetDepthMm": 11.56,
+      "notchWidthMm": 3.25,
+      "probeDiameterMm": 0,
+      "feedTypeCode": 0,
+      "patchRadiusMm": 0,
+      "elementSpacingXmm": 0,
+      "elementSpacingYmm": 0,
+      "phaseXDeg": 0,
+      "phaseYDeg": 0,
+      "arrayLayoutCode": 0,
+      "portConfigurationCode": 0,
+      "targetGainDbi": 7,
+      "targetBandwidthMHz": 95
+    },
+    "prediction": {
+      "gainDbi": 2.21,
+      "bandwidthMHz": 74,
+      "resonantFreqGHz": 2.471,
+      "efficiencyPct": 74.7,
+      "returnLossDb": -33.98,
+      "vswr": 1.04,
+      "inputImpedanceOhm": 50,
+      "beamwidthDeg": 89,
+      "areaMm2": 2316,
+      "estimatedCostUsd": 7.59,
+      "modelUsed": "ensemble",
+      "provenance": "Demo analytical-estimate surrogate — not EM-validated data.",
+      "isDemoEstimate": true,
+      "featureVector21": [
+        32.06,
+        40.56,
+        1.524,
+        3.55,
+        0.0027,
+        11.56,
+        0,
+        2.45,
+        0,
+        1,
+        11.56,
+        3.25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "baselineExpectation": {
+        "gainDbi": 2.34,
+        "bandwidthMHz": 1009,
+        "efficiencyPct": 63
+      },
+      "shapContributions": [
+        {
+          "featureKey": "dielectricConstant",
+          "label": "Dielectric Constant (er)",
+          "unit": "",
+          "value": 3.55,
+          "baselineValue": 4.881,
+          "gainImpactDbi": 2.705,
+          "bandwidthImpactMHz": 6.06,
+          "efficiencyImpactPct": 28.06,
+          "importancePct": 25.7
+        },
+        {
+          "featureKey": "operatingFreqGHz",
+          "label": "Operating Frequency",
+          "unit": "GHz",
+          "value": 2.45,
+          "baselineValue": 8.136,
+          "gainImpactDbi": -0.429,
+          "bandwidthImpactMHz": -198.99,
+          "efficiencyImpactPct": -5.28,
+          "importancePct": 22.4
+        },
+        {
+          "featureKey": "topologyCode",
+          "label": "Topology Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 2.015,
+          "gainImpactDbi": -2.943,
+          "bandwidthImpactMHz": 42.24,
+          "efficiencyImpactPct": 1.69,
+          "importancePct": 21.3
+        },
+        {
+          "featureKey": "arrayLayoutCode",
+          "label": "Array Layout Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.281,
+          "gainImpactDbi": -0.868,
+          "bandwidthImpactMHz": -11.75,
+          "efficiencyImpactPct": -0.5,
+          "importancePct": 6.2
+        },
+        {
+          "featureKey": "elementSpacingXmm",
+          "label": "Element Spacing X",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 13.193,
+          "gainImpactDbi": -0.601,
+          "bandwidthImpactMHz": -22.44,
+          "efficiencyImpactPct": -0.66,
+          "importancePct": 5.7
+        },
+        {
+          "featureKey": "elementSpacingYmm",
+          "label": "Element Spacing Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 12.772,
+          "gainImpactDbi": -0.225,
+          "bandwidthImpactMHz": -25.34,
+          "efficiencyImpactPct": -0.23,
+          "importancePct": 3.7
+        },
+        {
+          "featureKey": "substrateHeightMm",
+          "label": "Substrate Height (h)",
+          "unit": "mm",
+          "value": 1.524,
+          "baselineValue": 2.063,
+          "gainImpactDbi": -0.192,
+          "bandwidthImpactMHz": -9.1,
+          "efficiencyImpactPct": -2.92,
+          "importancePct": 2.9
+        },
+        {
+          "featureKey": "insetDepthMm",
+          "label": "Inset Depth",
+          "unit": "mm",
+          "value": 11.56,
+          "baselineValue": 3.706,
+          "gainImpactDbi": -0.065,
+          "bandwidthImpactMHz": 20.04,
+          "efficiencyImpactPct": -0.7,
+          "importancePct": 2.4
+        },
+        {
+          "featureKey": "portConfigurationCode",
+          "label": "Port Config Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.65,
+          "gainImpactDbi": 0.08,
+          "bandwidthImpactMHz": -13.64,
+          "efficiencyImpactPct": 0.56,
+          "importancePct": 1.9
+        },
+        {
+          "featureKey": "lossTangent",
+          "label": "Loss Tangent (tan d)",
+          "unit": "",
+          "value": 0.0027,
+          "baselineValue": 0.006,
+          "gainImpactDbi": 0.134,
+          "bandwidthImpactMHz": 0.64,
+          "efficiencyImpactPct": 2.47,
+          "importancePct": 1.7
+        },
+        {
+          "featureKey": "notchWidthMm",
+          "label": "Notch Width",
+          "unit": "mm",
+          "value": 3.25,
+          "baselineValue": 1.07,
+          "gainImpactDbi": -0.049,
+          "bandwidthImpactMHz": -9.82,
+          "efficiencyImpactPct": -0.15,
+          "importancePct": 1.2
+        },
+        {
+          "featureKey": "feedTypeCode",
+          "label": "Feed Type Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.356,
+          "gainImpactDbi": 0.074,
+          "bandwidthImpactMHz": -5.7,
+          "efficiencyImpactPct": 0.64,
+          "importancePct": 1.2
+        },
+        {
+          "featureKey": "patchRadiusMm",
+          "label": "Patch Radius",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 3.241,
+          "gainImpactDbi": 0.078,
+          "bandwidthImpactMHz": -4.58,
+          "efficiencyImpactPct": 0.59,
+          "importancePct": 1.1
+        },
+        {
+          "featureKey": "conductorSigmaNorm",
+          "label": "Conductor Conductivity",
+          "unit": "rel",
+          "value": 1,
+          "baselineValue": 0.865,
+          "gainImpactDbi": 0.06,
+          "bandwidthImpactMHz": 4.72,
+          "efficiencyImpactPct": 0.41,
+          "importancePct": 0.9
+        },
+        {
+          "featureKey": "patchLengthMm",
+          "label": "Patch Length (L)",
+          "unit": "mm",
+          "value": 32.06,
+          "baselineValue": 25.306,
+          "gainImpactDbi": -0.022,
+          "bandwidthImpactMHz": 3.14,
+          "efficiencyImpactPct": -0.17,
+          "importancePct": 0.5
+        },
+        {
+          "featureKey": "feedXMm",
+          "label": "Feed Position X",
+          "unit": "mm",
+          "value": 11.56,
+          "baselineValue": 10.242,
+          "gainImpactDbi": -0.028,
+          "bandwidthImpactMHz": 0.54,
+          "efficiencyImpactPct": -0.72,
+          "importancePct": 0.5
+        },
+        {
+          "featureKey": "probeDiameterMm",
+          "label": "Probe Diameter",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 0.275,
+          "gainImpactDbi": -0.03,
+          "bandwidthImpactMHz": 2.34,
+          "efficiencyImpactPct": -0.02,
+          "importancePct": 0.4
+        },
+        {
+          "featureKey": "patchWidthMm",
+          "label": "Patch Width (W)",
+          "unit": "mm",
+          "value": 40.56,
+          "baselineValue": 32.288,
+          "gainImpactDbi": 0.017,
+          "bandwidthImpactMHz": -0.29,
+          "efficiencyImpactPct": 0.17,
+          "importancePct": 0.2
+        },
+        {
+          "featureKey": "feedYMm",
+          "label": "Feed Position Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": -0.083,
+          "gainImpactDbi": 0.002,
+          "bandwidthImpactMHz": 0.8,
+          "efficiencyImpactPct": 0.01,
+          "importancePct": 0.1
+        },
+        {
+          "featureKey": "phaseXDeg",
+          "label": "Phase Shift X",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.165,
+          "gainImpactDbi": -0.001,
+          "bandwidthImpactMHz": -0.09,
+          "efficiencyImpactPct": -0.01,
+          "importancePct": 0
+        },
+        {
+          "featureKey": "phaseYDeg",
+          "label": "Phase Shift Y",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.116,
+          "gainImpactDbi": 0,
+          "bandwidthImpactMHz": -0.19,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0
+        }
+      ],
+      "frequencySweep": [
+        {
+          "freqGHz": 1.899,
+          "s11Db": -0.81,
+          "gainDbi": -6.79,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.954,
+          "s11Db": -0.88,
+          "gainDbi": -6.79,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.009,
+          "s11Db": -0.98,
+          "gainDbi": -6.79,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.064,
+          "s11Db": -1.11,
+          "gainDbi": -6.79,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.119,
+          "s11Db": -1.32,
+          "gainDbi": -6.79,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.174,
+          "s11Db": -1.64,
+          "gainDbi": -6.79,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.23,
+          "s11Db": -2.18,
+          "gainDbi": -6.79,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.285,
+          "s11Db": -3.24,
+          "gainDbi": -6.79,
+          "efficiencyPct": 18.5
+        },
+        {
+          "freqGHz": 2.34,
+          "s11Db": -5.6,
+          "gainDbi": -4.71,
+          "efficiencyPct": 37.4
+        },
+        {
+          "freqGHz": 2.395,
+          "s11Db": -12.2,
+          "gainDbi": -0.12,
+          "efficiencyPct": 59.2
+        },
+        {
+          "freqGHz": 2.45,
+          "s11Db": -30.18,
+          "gainDbi": 2.03,
+          "efficiencyPct": 73.4
+        },
+        {
+          "freqGHz": 2.505,
+          "s11Db": -25.07,
+          "gainDbi": 1.74,
+          "efficiencyPct": 71.3
+        },
+        {
+          "freqGHz": 2.56,
+          "s11Db": -9.89,
+          "gainDbi": -0.99,
+          "efficiencyPct": 54.2
+        },
+        {
+          "freqGHz": 2.615,
+          "s11Db": -4.83,
+          "gainDbi": -6.16,
+          "efficiencyPct": 32.3
+        },
+        {
+          "freqGHz": 2.671,
+          "s11Db": -2.91,
+          "gainDbi": -6.79,
+          "efficiencyPct": 15.1
+        },
+        {
+          "freqGHz": 2.726,
+          "s11Db": -2.02,
+          "gainDbi": -6.79,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.781,
+          "s11Db": -1.54,
+          "gainDbi": -6.79,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.836,
+          "s11Db": -1.26,
+          "gainDbi": -6.79,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.891,
+          "s11Db": -1.08,
+          "gainDbi": -6.79,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 2.946,
+          "s11Db": -0.95,
+          "gainDbi": -6.79,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 3.001,
+          "s11Db": -0.86,
+          "gainDbi": -6.79,
+          "efficiencyPct": 12
+        }
+      ]
+    },
+    "notes": "Benchmark reference design pre-evaluated with Ensemble Surrogate."
+  },
+  {
+    "id": "hist-seed-2",
+    "timestamp": "2026-11-20T09:47:07.724Z",
+    "type": "nsga2_optimization",
+    "designName": "5.8 GHz 2x2 Phased Array",
+    "params": {
+      "id": "seed-58-array",
+      "name": "5.8 GHz 2x2 Phased Array",
+      "topology": "array_2x2",
+      "patchLengthMm": 16.53,
+      "patchWidthMm": 20.43,
+      "substrateHeightMm": 1.524,
+      "dielectricConstant": 2.2,
+      "lossTangent": 0.0009,
+      "feedXMm": 5.76,
+      "feedYMm": 0,
+      "operatingFreqGHz": 5.8,
+      "substrateMaterial": "Rogers_RT5880",
+      "conductorMaterial": "Copper",
+      "insetDepthMm": 0,
+      "notchWidthMm": 0,
+      "probeDiameterMm": 0,
+      "feedTypeCode": 0,
+      "patchRadiusMm": 0,
+      "elementSpacingXmm": 25.84,
+      "elementSpacingYmm": 25.84,
+      "phaseXDeg": 0,
+      "phaseYDeg": 0,
+      "arrayLayoutCode": 1,
+      "portConfigurationCode": 0,
+      "targetGainDbi": 11.5,
+      "targetBandwidthMHz": 95
+    },
+    "prediction": {
+      "gainDbi": 9.5,
+      "bandwidthMHz": 466.4,
+      "resonantFreqGHz": 5.888,
+      "efficiencyPct": 91.7,
+      "returnLossDb": -33.98,
+      "vswr": 1.04,
+      "inputImpedanceOhm": 49.9,
+      "beamwidthDeg": 36,
+      "areaMm2": 4439,
+      "estimatedCostUsd": 20.52,
+      "modelUsed": "ensemble",
+      "provenance": "Demo analytical-estimate surrogate — not EM-validated data.",
+      "isDemoEstimate": true,
+      "featureVector21": [
+        16.53,
+        20.43,
+        1.524,
+        2.2,
+        0.0009,
+        5.76,
+        0,
+        5.8,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        25.84,
+        25.84,
+        0,
+        0,
+        1,
+        0
+      ],
+      "baselineExpectation": {
+        "gainDbi": 2.34,
+        "bandwidthMHz": 1009,
+        "efficiencyPct": 63
+      },
+      "shapContributions": [
+        {
+          "featureKey": "dielectricConstant",
+          "label": "Dielectric Constant (er)",
+          "unit": "",
+          "value": 2.2,
+          "baselineValue": 4.881,
+          "gainImpactDbi": 4.381,
+          "bandwidthImpactMHz": 131.34,
+          "efficiencyImpactPct": 34.93,
+          "importancePct": 50.8
+        },
+        {
+          "featureKey": "operatingFreqGHz",
+          "label": "Operating Frequency",
+          "unit": "GHz",
+          "value": 5.8,
+          "baselineValue": 8.136,
+          "gainImpactDbi": -0.091,
+          "bandwidthImpactMHz": -110.55,
+          "efficiencyImpactPct": -0.06,
+          "importancePct": 11
+        },
+        {
+          "featureKey": "substrateHeightMm",
+          "label": "Substrate Height (h)",
+          "unit": "mm",
+          "value": 1.524,
+          "baselineValue": 2.063,
+          "gainImpactDbi": -0.055,
+          "bandwidthImpactMHz": -73.87,
+          "efficiencyImpactPct": -0.35,
+          "importancePct": 7.4
+        },
+        {
+          "featureKey": "topologyCode",
+          "label": "Topology Code",
+          "unit": "code",
+          "value": 3,
+          "baselineValue": 2.015,
+          "gainImpactDbi": 0.073,
+          "bandwidthImpactMHz": 52.43,
+          "efficiencyImpactPct": -0.21,
+          "importancePct": 5.5
+        },
+        {
+          "featureKey": "lossTangent",
+          "label": "Loss Tangent (tan d)",
+          "unit": "",
+          "value": 0.0009,
+          "baselineValue": 0.006,
+          "gainImpactDbi": 0.227,
+          "bandwidthImpactMHz": 20.52,
+          "efficiencyImpactPct": 2.76,
+          "importancePct": 4.3
+        },
+        {
+          "featureKey": "elementSpacingYmm",
+          "label": "Element Spacing Y",
+          "unit": "mm",
+          "value": 25.84,
+          "baselineValue": 12.772,
+          "gainImpactDbi": 0.036,
+          "bandwidthImpactMHz": -38.17,
+          "efficiencyImpactPct": -0.1,
+          "importancePct": 3.9
+        },
+        {
+          "featureKey": "feedXMm",
+          "label": "Feed Position X",
+          "unit": "mm",
+          "value": 5.76,
+          "baselineValue": 10.242,
+          "gainImpactDbi": 0.188,
+          "bandwidthImpactMHz": 13.93,
+          "efficiencyImpactPct": 1.86,
+          "importancePct": 3.1
+        },
+        {
+          "featureKey": "probeDiameterMm",
+          "label": "Probe Diameter",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 0.275,
+          "gainImpactDbi": 0.045,
+          "bandwidthImpactMHz": 22.75,
+          "efficiencyImpactPct": -0.19,
+          "importancePct": 2.5
+        },
+        {
+          "featureKey": "patchRadiusMm",
+          "label": "Patch Radius",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 3.241,
+          "gainImpactDbi": 0.014,
+          "bandwidthImpactMHz": -21.24,
+          "efficiencyImpactPct": 0,
+          "importancePct": 2.1
+        },
+        {
+          "featureKey": "elementSpacingXmm",
+          "label": "Element Spacing X",
+          "unit": "mm",
+          "value": 25.84,
+          "baselineValue": 13.193,
+          "gainImpactDbi": 0.031,
+          "bandwidthImpactMHz": -17.91,
+          "efficiencyImpactPct": -0.22,
+          "importancePct": 2
+        },
+        {
+          "featureKey": "insetDepthMm",
+          "label": "Inset Depth",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 3.706,
+          "gainImpactDbi": 0.006,
+          "bandwidthImpactMHz": -13.07,
+          "efficiencyImpactPct": 0,
+          "importancePct": 1.3
+        },
+        {
+          "featureKey": "patchLengthMm",
+          "label": "Patch Length (L)",
+          "unit": "mm",
+          "value": 16.53,
+          "baselineValue": 25.306,
+          "gainImpactDbi": -0.014,
+          "bandwidthImpactMHz": 10.96,
+          "efficiencyImpactPct": 0.22,
+          "importancePct": 1.2
+        },
+        {
+          "featureKey": "patchWidthMm",
+          "label": "Patch Width (W)",
+          "unit": "mm",
+          "value": 20.43,
+          "baselineValue": 32.288,
+          "gainImpactDbi": 0.023,
+          "bandwidthImpactMHz": 9.38,
+          "efficiencyImpactPct": -0.21,
+          "importancePct": 1.1
+        },
+        {
+          "featureKey": "notchWidthMm",
+          "label": "Notch Width",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 1.07,
+          "gainImpactDbi": 0.049,
+          "bandwidthImpactMHz": -7.8,
+          "efficiencyImpactPct": 0.18,
+          "importancePct": 1.1
+        },
+        {
+          "featureKey": "feedTypeCode",
+          "label": "Feed Type Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.356,
+          "gainImpactDbi": -0.022,
+          "bandwidthImpactMHz": 6.53,
+          "efficiencyImpactPct": 0.05,
+          "importancePct": 0.8
+        },
+        {
+          "featureKey": "portConfigurationCode",
+          "label": "Port Config Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.65,
+          "gainImpactDbi": 0.038,
+          "bandwidthImpactMHz": -6.21,
+          "efficiencyImpactPct": 0.07,
+          "importancePct": 0.8
+        },
+        {
+          "featureKey": "conductorSigmaNorm",
+          "label": "Conductor Conductivity",
+          "unit": "rel",
+          "value": 1,
+          "baselineValue": 0.865,
+          "gainImpactDbi": -0.045,
+          "bandwidthImpactMHz": -3.67,
+          "efficiencyImpactPct": -0.1,
+          "importancePct": 0.6
+        },
+        {
+          "featureKey": "arrayLayoutCode",
+          "label": "Array Layout Code",
+          "unit": "code",
+          "value": 1,
+          "baselineValue": 0.281,
+          "gainImpactDbi": 0.049,
+          "bandwidthImpactMHz": 1.05,
+          "efficiencyImpactPct": -0.44,
+          "importancePct": 0.5
+        },
+        {
+          "featureKey": "feedYMm",
+          "label": "Feed Position Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": -0.083,
+          "gainImpactDbi": -0.002,
+          "bandwidthImpactMHz": -0.81,
+          "efficiencyImpactPct": -0.01,
+          "importancePct": 0.1
+        },
+        {
+          "featureKey": "phaseYDeg",
+          "label": "Phase Shift Y",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.116,
+          "gainImpactDbi": -0.001,
+          "bandwidthImpactMHz": -0.63,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0.1
+        },
+        {
+          "featureKey": "phaseXDeg",
+          "label": "Phase Shift X",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.165,
+          "gainImpactDbi": 0.001,
+          "bandwidthImpactMHz": -0.02,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0
+        }
+      ],
+      "frequencySweep": [
+        {
+          "freqGHz": 4.495,
+          "s11Db": -2.49,
+          "gainDbi": 0.5,
+          "efficiencyPct": 12.9
+        },
+        {
+          "freqGHz": 4.625,
+          "s11Db": -2.89,
+          "gainDbi": 0.5,
+          "efficiencyPct": 18.3
+        },
+        {
+          "freqGHz": 4.756,
+          "s11Db": -3.43,
+          "gainDbi": 0.5,
+          "efficiencyPct": 25.1
+        },
+        {
+          "freqGHz": 4.886,
+          "s11Db": -4.15,
+          "gainDbi": 0.5,
+          "efficiencyPct": 33.3
+        },
+        {
+          "freqGHz": 5.017,
+          "s11Db": -5.17,
+          "gainDbi": 1.83,
+          "efficiencyPct": 42.6
+        },
+        {
+          "freqGHz": 5.147,
+          "s11Db": -6.64,
+          "gainDbi": 3.95,
+          "efficiencyPct": 52.7
+        },
+        {
+          "freqGHz": 5.278,
+          "s11Db": -8.83,
+          "gainDbi": 5.74,
+          "efficiencyPct": 62.9
+        },
+        {
+          "freqGHz": 5.409,
+          "s11Db": -12.21,
+          "gainDbi": 7.17,
+          "efficiencyPct": 72.7
+        },
+        {
+          "freqGHz": 5.539,
+          "s11Db": -17.42,
+          "gainDbi": 8.27,
+          "efficiencyPct": 81.1
+        },
+        {
+          "freqGHz": 5.67,
+          "s11Db": -24.86,
+          "gainDbi": 9.02,
+          "efficiencyPct": 87.4
+        },
+        {
+          "freqGHz": 5.8,
+          "s11Db": -32.43,
+          "gainDbi": 9.42,
+          "efficiencyPct": 91
+        },
+        {
+          "freqGHz": 5.931,
+          "s11Db": -33.98,
+          "gainDbi": 9.48,
+          "efficiencyPct": 91.5
+        },
+        {
+          "freqGHz": 6.061,
+          "s11Db": -27.74,
+          "gainDbi": 9.2,
+          "efficiencyPct": 89
+        },
+        {
+          "freqGHz": 6.191,
+          "s11Db": -19.78,
+          "gainDbi": 8.57,
+          "efficiencyPct": 83.5
+        },
+        {
+          "freqGHz": 6.322,
+          "s11Db": -13.78,
+          "gainDbi": 7.6,
+          "efficiencyPct": 75.8
+        },
+        {
+          "freqGHz": 6.453,
+          "s11Db": -9.84,
+          "gainDbi": 6.28,
+          "efficiencyPct": 66.4
+        },
+        {
+          "freqGHz": 6.583,
+          "s11Db": -7.3,
+          "gainDbi": 4.61,
+          "efficiencyPct": 56.3
+        },
+        {
+          "freqGHz": 6.713,
+          "s11Db": -5.62,
+          "gainDbi": 2.61,
+          "efficiencyPct": 46
+        },
+        {
+          "freqGHz": 6.844,
+          "s11Db": -4.47,
+          "gainDbi": 0.5,
+          "efficiencyPct": 36.4
+        },
+        {
+          "freqGHz": 6.974,
+          "s11Db": -3.66,
+          "gainDbi": 0.5,
+          "efficiencyPct": 27.8
+        },
+        {
+          "freqGHz": 7.105,
+          "s11Db": -3.06,
+          "gainDbi": 0.5,
+          "efficiencyPct": 20.5
+        }
+      ]
+    },
+    "notes": "Benchmark reference design pre-evaluated with Ensemble Surrogate."
+  },
+  {
+    "id": "hist-seed-3",
+    "timestamp": "2026-11-20T10:47:07.735Z",
+    "type": "prediction",
+    "designName": "28 GHz 5G mmWave Patch",
+    "params": {
+      "id": "seed-28-5g",
+      "name": "28 GHz 5G mmWave Patch",
+      "topology": "rectangular_patch",
+      "patchLengthMm": 2.49,
+      "patchWidthMm": 4.23,
+      "substrateHeightMm": 1.524,
+      "dielectricConstant": 2.2,
+      "lossTangent": 0.0009,
+      "feedXMm": 0.7,
+      "feedYMm": 0,
+      "operatingFreqGHz": 28,
+      "substrateMaterial": "Rogers_RT5880",
+      "conductorMaterial": "Copper",
+      "insetDepthMm": 0,
+      "notchWidthMm": 0,
+      "probeDiameterMm": 1.27,
+      "feedTypeCode": 2,
+      "patchRadiusMm": 0,
+      "elementSpacingXmm": 0,
+      "elementSpacingYmm": 0,
+      "phaseXDeg": 0,
+      "phaseYDeg": 0,
+      "arrayLayoutCode": 0,
+      "portConfigurationCode": 0,
+      "targetGainDbi": 7,
+      "targetBandwidthMHz": 850
+    },
+    "prediction": {
+      "gainDbi": 4.39,
+      "bandwidthMHz": 4359.8,
+      "resonantFreqGHz": 25.38,
+      "efficiencyPct": 92.7,
+      "returnLossDb": -33.98,
+      "vswr": 1.04,
+      "inputImpedanceOhm": 50.7,
+      "beamwidthDeg": 82.3,
+      "areaMm2": 235,
+      "estimatedCostUsd": 3.08,
+      "modelUsed": "ensemble",
+      "provenance": "Demo analytical-estimate surrogate — not EM-validated data.",
+      "isDemoEstimate": true,
+      "featureVector21": [
+        2.49,
+        4.23,
+        1.524,
+        2.2,
+        0.0009,
+        0.7,
+        0,
+        28,
+        1,
+        1,
+        0,
+        0,
+        1.27,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "baselineExpectation": {
+        "gainDbi": 2.34,
+        "bandwidthMHz": 1009,
+        "efficiencyPct": 63
+      },
+      "shapContributions": [
+        {
+          "featureKey": "operatingFreqGHz",
+          "label": "Operating Frequency",
+          "unit": "GHz",
+          "value": 28,
+          "baselineValue": 8.136,
+          "gainImpactDbi": 0.483,
+          "bandwidthImpactMHz": 3331.79,
+          "efficiencyImpactPct": 0.56,
+          "importancePct": 55.8
+        },
+        {
+          "featureKey": "dielectricConstant",
+          "label": "Dielectric Constant (er)",
+          "unit": "",
+          "value": 2.2,
+          "baselineValue": 4.881,
+          "gainImpactDbi": 4.302,
+          "bandwidthImpactMHz": 745.69,
+          "efficiencyImpactPct": 30.28,
+          "importancePct": 18.7
+        },
+        {
+          "featureKey": "topologyCode",
+          "label": "Topology Code",
+          "unit": "code",
+          "value": 1,
+          "baselineValue": 2.015,
+          "gainImpactDbi": -4.003,
+          "bandwidthImpactMHz": -227.22,
+          "efficiencyImpactPct": -0.37,
+          "importancePct": 8
+        },
+        {
+          "featureKey": "feedTypeCode",
+          "label": "Feed Type Code",
+          "unit": "code",
+          "value": 2,
+          "baselineValue": 0.356,
+          "gainImpactDbi": 0.137,
+          "bandwidthImpactMHz": -123.36,
+          "efficiencyImpactPct": 0.26,
+          "importancePct": 2.2
+        },
+        {
+          "featureKey": "elementSpacingXmm",
+          "label": "Element Spacing X",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 13.193,
+          "gainImpactDbi": -0.72,
+          "bandwidthImpactMHz": -79.26,
+          "efficiencyImpactPct": -0.27,
+          "importancePct": 2.1
+        },
+        {
+          "featureKey": "patchLengthMm",
+          "label": "Patch Length (L)",
+          "unit": "mm",
+          "value": 2.49,
+          "baselineValue": 25.306,
+          "gainImpactDbi": -0.185,
+          "bandwidthImpactMHz": 102.36,
+          "efficiencyImpactPct": 0.38,
+          "importancePct": 1.9
+        },
+        {
+          "featureKey": "patchWidthMm",
+          "label": "Patch Width (W)",
+          "unit": "mm",
+          "value": 4.23,
+          "baselineValue": 32.288,
+          "gainImpactDbi": -0.706,
+          "bandwidthImpactMHz": 57.4,
+          "efficiencyImpactPct": 0.03,
+          "importancePct": 1.7
+        },
+        {
+          "featureKey": "feedXMm",
+          "label": "Feed Position X",
+          "unit": "mm",
+          "value": 0.7,
+          "baselineValue": 10.242,
+          "gainImpactDbi": 0.345,
+          "bandwidthImpactMHz": -72.4,
+          "efficiencyImpactPct": 2.96,
+          "importancePct": 1.7
+        },
+        {
+          "featureKey": "arrayLayoutCode",
+          "label": "Array Layout Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.281,
+          "gainImpactDbi": -0.818,
+          "bandwidthImpactMHz": -50.24,
+          "efficiencyImpactPct": -0.72,
+          "importancePct": 1.7
+        },
+        {
+          "featureKey": "lossTangent",
+          "label": "Loss Tangent (tan d)",
+          "unit": "",
+          "value": 0.0009,
+          "baselineValue": 0.006,
+          "gainImpactDbi": -0.027,
+          "bandwidthImpactMHz": -91.99,
+          "efficiencyImpactPct": 1.04,
+          "importancePct": 1.6
+        },
+        {
+          "featureKey": "substrateHeightMm",
+          "label": "Substrate Height (h)",
+          "unit": "mm",
+          "value": 1.524,
+          "baselineValue": 2.063,
+          "gainImpactDbi": -0.016,
+          "bandwidthImpactMHz": -67.64,
+          "efficiencyImpactPct": -0.9,
+          "importancePct": 1.2
+        },
+        {
+          "featureKey": "probeDiameterMm",
+          "label": "Probe Diameter",
+          "unit": "mm",
+          "value": 1.27,
+          "baselineValue": 0.275,
+          "gainImpactDbi": -0.371,
+          "bandwidthImpactMHz": -30.26,
+          "efficiencyImpactPct": -0.5,
+          "importancePct": 0.9
+        },
+        {
+          "featureKey": "elementSpacingYmm",
+          "label": "Element Spacing Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 12.772,
+          "gainImpactDbi": -0.365,
+          "bandwidthImpactMHz": 16.54,
+          "efficiencyImpactPct": -0.46,
+          "importancePct": 0.7
+        },
+        {
+          "featureKey": "portConfigurationCode",
+          "label": "Port Config Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.65,
+          "gainImpactDbi": -0.022,
+          "bandwidthImpactMHz": -38.7,
+          "efficiencyImpactPct": -0.56,
+          "importancePct": 0.7
+        },
+        {
+          "featureKey": "feedYMm",
+          "label": "Feed Position Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": -0.083,
+          "gainImpactDbi": -0.002,
+          "bandwidthImpactMHz": 14.96,
+          "efficiencyImpactPct": -0.01,
+          "importancePct": 0.3
+        },
+        {
+          "featureKey": "insetDepthMm",
+          "label": "Inset Depth",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 3.706,
+          "gainImpactDbi": -0.003,
+          "bandwidthImpactMHz": -16.1,
+          "efficiencyImpactPct": -0.03,
+          "importancePct": 0.3
+        },
+        {
+          "featureKey": "conductorSigmaNorm",
+          "label": "Conductor Conductivity",
+          "unit": "rel",
+          "value": 1,
+          "baselineValue": 0.865,
+          "gainImpactDbi": -0.029,
+          "bandwidthImpactMHz": 9.08,
+          "efficiencyImpactPct": -0.11,
+          "importancePct": 0.2
+        },
+        {
+          "featureKey": "patchRadiusMm",
+          "label": "Patch Radius",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 3.241,
+          "gainImpactDbi": 0.028,
+          "bandwidthImpactMHz": 11.61,
+          "efficiencyImpactPct": -0.09,
+          "importancePct": 0.2
+        },
+        {
+          "featureKey": "notchWidthMm",
+          "label": "Notch Width",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 1.07,
+          "gainImpactDbi": -0.01,
+          "bandwidthImpactMHz": -3.21,
+          "efficiencyImpactPct": -0.13,
+          "importancePct": 0.1
+        },
+        {
+          "featureKey": "phaseXDeg",
+          "label": "Phase Shift X",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.165,
+          "gainImpactDbi": 0,
+          "bandwidthImpactMHz": -0.15,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0
+        },
+        {
+          "featureKey": "phaseYDeg",
+          "label": "Phase Shift Y",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.116,
+          "gainImpactDbi": 0,
+          "bandwidthImpactMHz": -0.6,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0
+        }
+      ],
+      "frequencySweep": [
+        {
+          "freqGHz": 21.7,
+          "s11Db": -15.39,
+          "gainDbi": 2.82,
+          "efficiencyPct": 79.3
+        },
+        {
+          "freqGHz": 22.33,
+          "s11Db": -18.57,
+          "gainDbi": 3.31,
+          "efficiencyPct": 83.2
+        },
+        {
+          "freqGHz": 22.96,
+          "s11Db": -22.36,
+          "gainDbi": 3.71,
+          "efficiencyPct": 86.6
+        },
+        {
+          "freqGHz": 23.59,
+          "s11Db": -26.57,
+          "gainDbi": 4.02,
+          "efficiencyPct": 89.3
+        },
+        {
+          "freqGHz": 24.22,
+          "s11Db": -30.64,
+          "gainDbi": 4.23,
+          "efficiencyPct": 91.3
+        },
+        {
+          "freqGHz": 24.85,
+          "s11Db": -33.6,
+          "gainDbi": 4.36,
+          "efficiencyPct": 92.4
+        },
+        {
+          "freqGHz": 25.48,
+          "s11Db": -34.45,
+          "gainDbi": 4.39,
+          "efficiencyPct": 92.7
+        },
+        {
+          "freqGHz": 26.11,
+          "s11Db": -32.85,
+          "gainDbi": 4.33,
+          "efficiencyPct": 92.1
+        },
+        {
+          "freqGHz": 26.74,
+          "s11Db": -29.42,
+          "gainDbi": 4.18,
+          "efficiencyPct": 90.7
+        },
+        {
+          "freqGHz": 27.37,
+          "s11Db": -25.21,
+          "gainDbi": 3.93,
+          "efficiencyPct": 88.5
+        },
+        {
+          "freqGHz": 28,
+          "s11Db": -21.09,
+          "gainDbi": 3.6,
+          "efficiencyPct": 85.6
+        },
+        {
+          "freqGHz": 28.63,
+          "s11Db": -17.49,
+          "gainDbi": 3.17,
+          "efficiencyPct": 82
+        },
+        {
+          "freqGHz": 29.26,
+          "s11Db": -14.51,
+          "gainDbi": 2.65,
+          "efficiencyPct": 77.9
+        },
+        {
+          "freqGHz": 29.89,
+          "s11Db": -12.11,
+          "gainDbi": 2.04,
+          "efficiencyPct": 73.3
+        },
+        {
+          "freqGHz": 30.52,
+          "s11Db": -10.2,
+          "gainDbi": 1.33,
+          "efficiencyPct": 68.3
+        },
+        {
+          "freqGHz": 31.15,
+          "s11Db": -8.68,
+          "gainDbi": 0.54,
+          "efficiencyPct": 63.1
+        },
+        {
+          "freqGHz": 31.78,
+          "s11Db": -7.46,
+          "gainDbi": -0.35,
+          "efficiencyPct": 57.7
+        },
+        {
+          "freqGHz": 32.41,
+          "s11Db": -6.48,
+          "gainDbi": -1.33,
+          "efficiencyPct": 52.3
+        },
+        {
+          "freqGHz": 33.04,
+          "s11Db": -5.68,
+          "gainDbi": -2.4,
+          "efficiencyPct": 47
+        },
+        {
+          "freqGHz": 33.67,
+          "s11Db": -5.03,
+          "gainDbi": -3.56,
+          "efficiencyPct": 41.8
+        },
+        {
+          "freqGHz": 34.3,
+          "s11Db": -4.48,
+          "gainDbi": -4.61,
+          "efficiencyPct": 36.9
+        }
+      ]
+    },
+    "notes": "Benchmark reference design pre-evaluated with Ensemble Surrogate."
+  },
+  {
+    "id": "hist-seed-4",
+    "timestamp": "2026-11-20T11:47:07.737Z",
+    "type": "prediction",
+    "designName": "915 MHz IoT Circular Patch",
+    "params": {
+      "id": "seed-915-iot",
+      "name": "915 MHz IoT Circular Patch",
+      "topology": "circular_patch",
+      "patchLengthMm": 0,
+      "patchWidthMm": 0,
+      "substrateHeightMm": 1.524,
+      "dielectricConstant": 4.4,
+      "lossTangent": 0.02,
+      "feedXMm": 12.18,
+      "feedYMm": 0,
+      "operatingFreqGHz": 0.915,
+      "substrateMaterial": "FR4",
+      "conductorMaterial": "Copper",
+      "insetDepthMm": 0,
+      "notchWidthMm": 0,
+      "probeDiameterMm": 0,
+      "feedTypeCode": 0,
+      "patchRadiusMm": 45.19,
+      "elementSpacingXmm": 0,
+      "elementSpacingYmm": 0,
+      "phaseXDeg": 0,
+      "phaseYDeg": 0,
+      "arrayLayoutCode": 0,
+      "portConfigurationCode": 0,
+      "targetGainDbi": 7,
+      "targetBandwidthMHz": 95
+    },
+    "prediction": {
+      "gainDbi": -4.31,
+      "bandwidthMHz": 0,
+      "resonantFreqGHz": 0.918,
+      "efficiencyPct": 24,
+      "returnLossDb": -2.65,
+      "vswr": 6.6,
+      "inputImpedanceOhm": 330,
+      "beamwidthDeg": 78,
+      "areaMm2": 8051,
+      "estimatedCostUsd": 5.28,
+      "modelUsed": "ensemble",
+      "provenance": "Demo analytical-estimate surrogate — not EM-validated data.",
+      "isDemoEstimate": true,
+      "featureVector21": [
+        0,
+        0,
+        1.524,
+        4.4,
+        0.02,
+        15.82,
+        0,
+        0.915,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        45.19,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "baselineExpectation": {
+        "gainDbi": 2.34,
+        "bandwidthMHz": 1009,
+        "efficiencyPct": 63
+      },
+      "shapContributions": [
+        {
+          "featureKey": "operatingFreqGHz",
+          "label": "Operating Frequency",
+          "unit": "GHz",
+          "value": 0.915,
+          "baselineValue": 8.136,
+          "gainImpactDbi": -2.508,
+          "bandwidthImpactMHz": -345.93,
+          "efficiencyImpactPct": -19.64,
+          "importancePct": 36.4
+        },
+        {
+          "featureKey": "topologyCode",
+          "label": "Topology Code",
+          "unit": "code",
+          "value": 2,
+          "baselineValue": 2.015,
+          "gainImpactDbi": -4.89,
+          "bandwidthImpactMHz": -156.45,
+          "efficiencyImpactPct": -0.77,
+          "importancePct": 29.5
+        },
+        {
+          "featureKey": "elementSpacingXmm",
+          "label": "Element Spacing X",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 13.193,
+          "gainImpactDbi": -0.916,
+          "bandwidthImpactMHz": -54.27,
+          "efficiencyImpactPct": -0.24,
+          "importancePct": 7.1
+        },
+        {
+          "featureKey": "patchRadiusMm",
+          "label": "Patch Radius",
+          "unit": "mm",
+          "value": 45.19,
+          "baselineValue": 3.241,
+          "gainImpactDbi": -0.649,
+          "bandwidthImpactMHz": -30.78,
+          "efficiencyImpactPct": -5.6,
+          "importancePct": 5.8
+        },
+        {
+          "featureKey": "arrayLayoutCode",
+          "label": "Array Layout Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.281,
+          "gainImpactDbi": -0.755,
+          "bandwidthImpactMHz": -12.89,
+          "efficiencyImpactPct": -1.64,
+          "importancePct": 4.2
+        },
+        {
+          "featureKey": "lossTangent",
+          "label": "Loss Tangent (tan d)",
+          "unit": "",
+          "value": 0.02,
+          "baselineValue": 0.006,
+          "gainImpactDbi": -0.414,
+          "bandwidthImpactMHz": -10.52,
+          "efficiencyImpactPct": -4.57,
+          "importancePct": 3.4
+        },
+        {
+          "featureKey": "substrateHeightMm",
+          "label": "Substrate Height (h)",
+          "unit": "mm",
+          "value": 1.524,
+          "baselineValue": 2.063,
+          "gainImpactDbi": -0.245,
+          "bandwidthImpactMHz": -9.69,
+          "efficiencyImpactPct": -4.33,
+          "importancePct": 2.6
+        },
+        {
+          "featureKey": "elementSpacingYmm",
+          "label": "Element Spacing Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 12.772,
+          "gainImpactDbi": -0.37,
+          "bandwidthImpactMHz": -13.95,
+          "efficiencyImpactPct": -0.58,
+          "importancePct": 2.5
+        },
+        {
+          "featureKey": "dielectricConstant",
+          "label": "Dielectric Constant (er)",
+          "unit": "",
+          "value": 4.4,
+          "baselineValue": 4.881,
+          "gainImpactDbi": 0.486,
+          "bandwidthImpactMHz": 2.49,
+          "efficiencyImpactPct": -0.7,
+          "importancePct": 2.3
+        },
+        {
+          "featureKey": "patchLengthMm",
+          "label": "Patch Length (L)",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 25.306,
+          "gainImpactDbi": -0.119,
+          "bandwidthImpactMHz": 14.05,
+          "efficiencyImpactPct": 0.34,
+          "importancePct": 1.4
+        },
+        {
+          "featureKey": "conductorSigmaNorm",
+          "label": "Conductor Conductivity",
+          "unit": "rel",
+          "value": 1,
+          "baselineValue": 0.865,
+          "gainImpactDbi": -0.008,
+          "bandwidthImpactMHz": 14.38,
+          "efficiencyImpactPct": -0.01,
+          "importancePct": 0.9
+        },
+        {
+          "featureKey": "patchWidthMm",
+          "label": "Patch Width (W)",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 32.288,
+          "gainImpactDbi": -0.121,
+          "bandwidthImpactMHz": 1.06,
+          "efficiencyImpactPct": -0.66,
+          "importancePct": 0.7
+        },
+        {
+          "featureKey": "feedXMm",
+          "label": "Feed Position X",
+          "unit": "mm",
+          "value": 15.82,
+          "baselineValue": 10.242,
+          "gainImpactDbi": -0.122,
+          "bandwidthImpactMHz": -2.63,
+          "efficiencyImpactPct": -0.42,
+          "importancePct": 0.7
+        },
+        {
+          "featureKey": "probeDiameterMm",
+          "label": "Probe Diameter",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 0.275,
+          "gainImpactDbi": -0.013,
+          "bandwidthImpactMHz": -8.64,
+          "efficiencyImpactPct": -0.35,
+          "importancePct": 0.7
+        },
+        {
+          "featureKey": "portConfigurationCode",
+          "label": "Port Config Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.65,
+          "gainImpactDbi": -0.061,
+          "bandwidthImpactMHz": -6.82,
+          "efficiencyImpactPct": -0.14,
+          "importancePct": 0.7
+        },
+        {
+          "featureKey": "feedTypeCode",
+          "label": "Feed Type Code",
+          "unit": "code",
+          "value": 0,
+          "baselineValue": 0.356,
+          "gainImpactDbi": -0.029,
+          "bandwidthImpactMHz": -5.14,
+          "efficiencyImpactPct": 0.09,
+          "importancePct": 0.5
+        },
+        {
+          "featureKey": "insetDepthMm",
+          "label": "Inset Depth",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 3.706,
+          "gainImpactDbi": 0.029,
+          "bandwidthImpactMHz": -1.68,
+          "efficiencyImpactPct": 0.21,
+          "importancePct": 0.3
+        },
+        {
+          "featureKey": "notchWidthMm",
+          "label": "Notch Width",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": 1.07,
+          "gainImpactDbi": 0.002,
+          "bandwidthImpactMHz": -3.14,
+          "efficiencyImpactPct": 0.01,
+          "importancePct": 0.2
+        },
+        {
+          "featureKey": "feedYMm",
+          "label": "Feed Position Y",
+          "unit": "mm",
+          "value": 0,
+          "baselineValue": -0.083,
+          "gainImpactDbi": 0,
+          "bandwidthImpactMHz": 0.06,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0
+        },
+        {
+          "featureKey": "phaseXDeg",
+          "label": "Phase Shift X",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.165,
+          "gainImpactDbi": 0.002,
+          "bandwidthImpactMHz": 0.24,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0
+        },
+        {
+          "featureKey": "phaseYDeg",
+          "label": "Phase Shift Y",
+          "unit": "deg",
+          "value": 0,
+          "baselineValue": -0.116,
+          "gainImpactDbi": 0,
+          "bandwidthImpactMHz": 0,
+          "efficiencyImpactPct": 0,
+          "importancePct": 0
+        }
+      ],
+      "frequencySweep": [
+        {
+          "freqGHz": 0.709,
+          "s11Db": -0.51,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.73,
+          "s11Db": -0.52,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.75,
+          "s11Db": -0.52,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.771,
+          "s11Db": -0.53,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.791,
+          "s11Db": -0.54,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.812,
+          "s11Db": -0.56,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.833,
+          "s11Db": -0.59,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.853,
+          "s11Db": -0.65,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.874,
+          "s11Db": -0.8,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.894,
+          "s11Db": -1.31,
+          "gainDbi": -7.09,
+          "efficiencyPct": 18.2
+        },
+        {
+          "freqGHz": 0.915,
+          "s11Db": -3.06,
+          "gainDbi": -4.35,
+          "efficiencyPct": 23.9
+        },
+        {
+          "freqGHz": 0.936,
+          "s11Db": -1.67,
+          "gainDbi": -5.85,
+          "efficiencyPct": 20.6
+        },
+        {
+          "freqGHz": 0.956,
+          "s11Db": -0.88,
+          "gainDbi": -11.58,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.977,
+          "s11Db": -0.68,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 0.997,
+          "s11Db": -0.6,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.018,
+          "s11Db": -0.56,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.039,
+          "s11Db": -0.54,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.059,
+          "s11Db": -0.53,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.08,
+          "s11Db": -0.52,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.1,
+          "s11Db": -0.52,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        },
+        {
+          "freqGHz": 1.121,
+          "s11Db": -0.52,
+          "gainDbi": -13.31,
+          "efficiencyPct": 12
+        }
+      ]
+    },
+    "notes": "Benchmark reference design pre-evaluated with Ensemble Surrogate."
+  }
+]

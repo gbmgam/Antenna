@@ -1,0 +1,38 @@
+{
+  "features": [
+    "patchLengthMm",
+    "patchWidthMm",
+    "substrateHeightMm",
+    "dielectricConstant",
+    "lossTangent",
+    "feedXMm",
+    "feedYMm",
+    "operatingFreqGHz",
+    "topologyCode",
+    "conductorSigmaNorm",
+    "insetDepthMm",
+    "notchWidthMm",
+    "probeDiameterMm",
+    "feedTypeCode",
+    "patchRadiusMm",
+    "elementSpacingXmm",
+    "elementSpacingYmm",
+    "phaseXDeg",
+    "phaseYDeg",
+    "arrayLayoutCode",
+    "portConfigurationCode"
+  ],
+  "targets": [
+    "gainDbi",
+    "bandwidthMHz",
+    "resonantFreqGHz",
+    "efficiencyPct"
+  ],
+  "topologyCodes": {
+    "Microstrip_Inset_Patch": 0,
+    "Probe_Fed_Rectangular_Patch": 1,
+    "Circular_Disk_Patch": 2,
+    "2x2_Phased_Planar_Array": 3,
+    "4_Element_MIMO_Array": 4
+  }
+}

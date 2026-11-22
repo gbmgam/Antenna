@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Remix Antenna AI",
+  "description": "An immersive 3D platform for advanced antenna design, electromagnetic simulation, and AI-driven engineering optimization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
